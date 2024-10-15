@@ -5,3 +5,4 @@ Editor version: 2022 (I had to migrate the project to the latest 2022 version to
 
 # WARNING
 Ignore warnings and errors, they do not affect the game at all.
+The game is not mine, all game content belongs to [Robotani Technologies](https://www.robotani.com).
