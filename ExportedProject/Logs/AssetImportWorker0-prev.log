@@ -1,0 +1,1498 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'es' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Unity Hub\Editor\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/School Fighter (4.10)/ExportedProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49908
+Successfully changed project path to: G:/School Fighter (4.10)/ExportedProject
+G:/School Fighter (4.10)/ExportedProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4828]  Target information:
+
+Player connection [4828]  * "[IP] 192.168.0.57 [Port] 0 [Flags] 2 [Guid] 2709965404 [EditorId] 2709965404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ENAO1N7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4828] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4828] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path G:/Unity Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/School Fighter (4.10)/ExportedProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:   NVIDIA
+    VRAM:     3930 MB
+    Driver:   32.0.15.6590
+Initialize mono
+Mono path[0] = 'G:/Unity Hub/Editor/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Unity Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Unity Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: G:/Unity Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: G:/Unity Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008976 seconds.
+- Loaded All Assemblies, in  0.449 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 285 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.574 seconds
+Domain Reload Profiling: 1023ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (575ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (361ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.288 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.391 seconds
+Domain Reload Profiling: 679ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (21ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (9ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (256ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 129 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (21.5 KB). Loaded Objects now: 604.
+Memory consumption went from 52.9 MB to 52.9 MB.
+Total: 2.725300 ms (FindLiveObjects: 0.099500 ms CreateObjectMapping: 0.012100 ms MarkObjects: 2.579600 ms  DeleteObjects: 0.031800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MediationExtras.cs: 93505023cf6cf2741ffb1f9c83c83a44 -> 
+  custom:scripting/monoscript/fileName/AdManagerAdRequest.cs: 56931cf01d4d31a872b2d2f4d6dfbed7 -> 
+  custom:scripting/monoscript/fileName/AdInspectorErrorClientEventArgs.cs: 9c21b5063c5846740aa8955a7215b13f -> 
+  custom:scripting/monoscript/fileName/AdError.cs: ab2ecacad16fa586b1ef2540929c90f3 -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 0d1c694120575c156f5da6da0e426b8f -> 
+  custom:scripting/monoscript/fileName/UmpClientFactory.cs: 41336bf067fed6b9cb6ed5d03fee50c0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/IInitializationStatusClient.cs: 96ea53635e9013c0fd6cdb216f862ad2 -> 
+  custom:scripting/monoscript/fileName/AppStateEventClient.cs: 078b01f459214187a7fb38e764695fca -> 
+  custom:scripting/monoscript/fileName/IResponseInfoClient.cs: b07ef8eb11fb35adc8612e7933f05df6 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GoogleMobileAdsClientFactory.cs: 755b47e6a3a63d029985a3f8cd92df5d -> 
+  custom:scripting/monoscript/fileName/IAppStateEventClient.cs: b40b1edf5a39b1d493dfd0bd38c3d757 -> 
+  custom:scripting/monoscript/fileName/IConsentFormClient.cs: 28e42f5e74830cb0c22fa0d7fceb7bc2 -> 
+  custom:scripting/monoscript/fileName/ApplicationPreferencesClient.cs: cf8195453e8c0fb5e0e50645ae2f14ab -> 
+  custom:scripting/precompiled-assembly-types:GoogleMobileAds.Ump: 628090c669c4d854eb665ca4176afb2a -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/IMobileAdsClient.cs: cae5a9ce75aa744cbb821967bd85b24f -> 
+  custom:scripting/monoscript/fileName/IAdErrorClient.cs: 8ceb92f4f97f54e668f610599c7ffbf4 -> 
+  custom:scripting/monoscript/fileName/AppOpenAdClient.cs: 429a4d501d6ea8453430ccc6bb549eb6 -> 
+  custom:scripting/precompiled-assembly-types:GoogleMobileAds.Common: 59131aba1ef75e93d5daa5228b6c7d69 -> 
+  custom:scripting/monoscript/fileName/MobileAdsClient.cs: 9120e83b300826d7640b3ae52019e9fc -> 
+  custom:scripting/monoscript/fileName/IAdManagerBannerClient.cs: c51a01065b8673794262da120b6a00fc -> 
+  custom:scripting/precompiled-assembly-types:GoogleMobileAds.Android: add09ffcd3efc84a592b7e37682fa2e4 -> 
+  custom:scripting/monoscript/fileName/MaxAdContentRating.cs: eeb4897f322a59661e003214aa652d29 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:GoogleMobileAds.Core: 6132d9365802fcdf80c3e58e52e5e664 -> 
+  custom:scripting/monoscript/fileName/IClientFactory.cs: f8128aa267a98f908226ec691f841d2d -> 
+  custom:scripting/monoscript/fileName/IAdManagerInterstitialClient.cs: e61f0c2b706f6fb3d4657fb78cf3a8b1 -> 
+  custom:scripting/monoscript/fileName/MobileAds.cs: 3d200195932cca28ae62137384dc88bf -> 
+  custom:scripting/monoscript/fileName/AdRequest.cs: 2305aa2d37ed4829f5be9ef95041f392 -> 
+  custom:scripting/monoscript/fileName/NativeTemplateTextStyle.cs: 92b236436ab9b3aee9a17dd3034d4874 -> 
+  custom:scripting/monoscript/fileName/AdErrorClientEventArgs.cs: 6ed6fd2f468fde116093c45fc6096ded -> 
+  custom:scripting/monoscript/fileName/AppOpenAd.cs: b6f3ca9665261d54762d5989fecc2425 -> 
+  custom:scripting/monoscript/fileName/MobileAdsEventExecutor.cs: 75f26080375c03271d7c3db3ff7e4907 -> 
+  custom:scripting/monoscript/fileName/ConsentFormClient.cs: 1c28e52e939c24b17435f53b5da82b43 -> 
+  custom:scripting/monoscript/fileName/Reward.cs: 983a59968d26d4ed6b76096ab271d1fb -> 
+  custom:scripting/monoscript/fileName/IAdapterResponseInfoClient.cs: 3a8e0559a8293d06d74b44859331132f -> 
+  custom:scripting/monoscript/fileName/IConsentInformationClient.cs: d7d52dfdd9723018454164bd1f2ddd43 -> 
+  custom:scripting/monoscript/fileName/AdapterResponseInfoClient.cs: ab4bee057d3a5b74d59ffc402c1079f2 -> 
+  custom:scripting/monoscript/fileName/NativeTemplateStyle.cs: c0bb5532380999dcd3a1c50d43379d0e -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/InitializationStatusClient.cs: 93e2abd95d18232317b62f024cb17a24 -> 
+  custom:scripting/monoscript/fileName/AdValue.cs: 508aaf0b8b85952f1e81d81cc820e53d -> 
+  custom:scripting/monoscript/fileName/INativeOverlayAdClient.cs: f976585485d33b5671e8cdfcceb486dc -> 
+  custom:scripting/precompiled-assembly-types:GoogleMobileAds.Ump.Android: 162defbc26efee26e7f752d170327826 -> 
+  custom:scripting/monoscript/fileName/DisplayMetrics.cs: 9dd6f39314eb22275532392bed9d5bd5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IRewardedAdClient.cs: 8e46a696cc2e194f30c5b09591f8a8d9 -> 
+  custom:scripting/monoscript/fileName/OnConsentInfoUpdateSuccessListener.cs: daed7b559eefe2d44aa76b312616e126 -> 
+  custom:scripting/monoscript/fileName/OnConsentFormDismissedListener.cs: 8f0e86a5438db026c3c03a9fb71c0c85 -> 
+  custom:scripting/monoscript/fileName/ConsentDebugSettings.cs: 11bada09d4c74bd4a7edc87b39603aae -> 
+  custom:scripting/monoscript/fileName/IAdInspectorErrorClient.cs: b7e439c199787de995689b4243f44d3d -> 
+  custom:scripting/monoscript/fileName/ILoadAdErrorClient.cs: 69592947daa50c3400ccf573ab627ed6 -> 
+  custom:scripting/monoscript/fileName/InterstitialAd.cs: efd6b2a2249355dc45825b64098a27f2 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/IRewardedInterstitialAdClient.cs: bb87a7c9e15ff948f68b3b7321f3c1ca -> 
+  custom:scripting/monoscript/fileName/IInterstitialClient.cs: 9406f4c30aa0b253a70d0465dc0519a1 -> 
+  custom:scripting/monoscript/fileName/ConsentInformationClient.cs: d3174b6c5ff8ef42ce2529819fcd0b5c -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FormError.cs: 2a5d2fade14a65976dfb99745c1a44fe -> 
+  custom:scripting/monoscript/fileName/NativeOverlayAdClient.cs: 86fdbc8f4b594f477a13ea060d537cd1 -> 
+  custom:scripting/monoscript/fileName/AdapterStatus.cs: 487500d48849153a5de2d5ec91fc79c6 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LoadAdErrorClient.cs: 3e7386a16291c8f12a84332114c8cd50 -> 
+  custom:scripting/monoscript/fileName/OnConsentFormLoadFailureListener.cs: 5caa8b922b9d6a05b3d6e8ef925843f0 -> 
+  custom:scripting/monoscript/fileName/IApplicationPreferencesClient.cs: 5527eeb2f73bc8122fa646ef1b142f91 -> 
+  custom:scripting/monoscript/fileName/RequestConfigurationClient.cs: 2bb09ee5243e515d54b8462c3a5ea2cd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AppEvent.cs: d76b9b8870f3359e1d5f0890c8a08810 -> 
+  custom:scripting/monoscript/fileName/BannerView.cs: f38eb77ad33d883bdeb41653095d70fa -> 
+  custom:scripting/monoscript/fileName/LoadAdErrorClientEventArgs.cs: a7a2f8e5d0f7f8799d20ac3aacc25395 -> 
+  custom:scripting/monoscript/fileName/AdManagerInterstitialClient.cs: 5d73eaceee5460f581cdb2aa3a724be0 -> 
+  custom:scripting/monoscript/fileName/LoadAdError.cs: 30d41f25b3a0c0388c5c87e35b8145d9 -> 
+  custom:scripting/monoscript/fileName/ResponseInfoClient.cs: 934198fd4a6ecf834c51902355a3c65a -> 
+  custom:scripting/precompiled-assembly-types:GoogleMobileAds: 9cf46c83ee2ca01b6158bdee90537ab2 -> 
+  custom:scripting/monoscript/fileName/IBannerClient.cs: a3ff961c71ee24c85e72734b3537e12d -> 
+  custom:scripting/monoscript/fileName/VideoOptions.cs: d0d9e2b90a68b056df9157181a1e8c61 -> 
+  custom:scripting/monoscript/fileName/InterstitialClient.cs: 19b436c739a9be11e13b2572670857d1 -> 
+  custom:scripting/monoscript/fileName/IUmpClientFactory.cs: 24cc417b2a9a24385387ad5b9f5884bc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ServerSideVerificationOptions.cs: d49171325a764c5ee699d1734cee4940 -> 
+  custom:scripting/monoscript/fileName/NativeAdOptions.cs: 465f28402ada573d07281e42d512826d -> 
+  custom:scripting/monoscript/fileName/AdSize.cs: f27719f12f60e7f5cd7c4357dbbd734a -> 
+  custom:scripting/monoscript/fileName/ConsentRequestParameters.cs: e2452f27b5c8c46f80c21ab4b82dea03 -> 
+  custom:scripting/monoscript/fileName/RequestConfiguration.cs: cb544a5f4369092f2f1a9d53405d0c94 -> 
+  custom:scripting/monoscript/fileName/BannerClient.cs: 308737754475e7a3b1e4507bb08bf3ea -> 
+  custom:scripting/monoscript/fileName/AdInspectorErrorClient.cs: 998094dc08106808a87547c910a74937 -> 
+  custom:scripting/monoscript/fileName/AppStateEventNotifier.cs: 1fb27395dd225f404e4c0ba29dd70eb7 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AdInspectorListener.cs: 80f743e3a68d54a9880d32f1700f0c57 -> 
+  custom:scripting/monoscript/fileName/IAppOpenAdClient.cs: 0d0afc34f74c0dc48ebdfdfa7eb41f4c -> 
+  custom:scripting/monoscript/fileName/RewardedAdClient.cs: 82c368285d18c8c06a328b87c3a1130b -> 
+  custom:scripting/monoscript/fileName/OnConsentFormLoadSuccessListener.cs: eb2356ebf7b8fbce21b27007fcfc2fdb -> 
+  custom:scripting/monoscript/fileName/AdManagerBannerClient.cs: 27ee537648609c4a25e6ae335847c755 -> 
+  custom:scripting/monoscript/fileName/RewardedInterstitialAdClient.cs: 0db3e73776e620512f26411a21ab0b30 -> 
+  custom:scripting/monoscript/fileName/InitializationStatus.cs: 9f61f7d146c186240c4227c8101cf33a -> 
+  custom:scripting/monoscript/fileName/AdErrorClient.cs: 122d830b9b3139bad05b8ea0d66eaa15 -> 
+  custom:scripting/monoscript/fileName/OnConsentInfoUpdateFailureListener.cs: 11575417ba6fb2ae939c8d57a3aedeef -> 
+========================================================================
+Received Import Request.
+  Time since last request: 162955.271000 seconds.
+  path: Assets/Scripts/Assembly-CSharp/UnitySourceGeneratedAssemblyMonoScriptTypes_v1.cs
+  artifactKey: Guid(1e7212774097f8d499e58ebbcd7cfa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Assembly-CSharp/UnitySourceGeneratedAssemblyMonoScriptTypes_v1.cs using Guid(1e7212774097f8d499e58ebbcd7cfa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cb9a0ba3adb5b9affc1ff7e28a30ef14') in 0.002747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.214152 seconds.
+  path: Assets/Plugins/Assembly-CSharp-firstpass/ForcedReset.cs
+  artifactKey: Guid(d37090e3481556198e7bc01a56f2f7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Assembly-CSharp-firstpass/ForcedReset.cs using Guid(d37090e3481556198e7bc01a56f2f7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '922ae70a27cda852ceb4e4a549a8d4f5') in 0.000451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.048143 seconds.
+  path: Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/SimpleActivatorMenu.cs
+  artifactKey: Guid(0a978509b791feb40489879a2a9bc3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/SimpleActivatorMenu.cs using Guid(0a978509b791feb40489879a2a9bc3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c5b1fce09763acd356f1a140e4e3869c') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.897439 seconds.
+  path: Assets/Scripts/Assembly-CSharp/RoboOpenAd.cs
+  artifactKey: Guid(a39b94bf4631430c3aa3bcc987ce8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Assembly-CSharp/RoboOpenAd.cs using Guid(a39b94bf4631430c3aa3bcc987ce8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9e27a051974183d118d7dd7d74598cc4') in 0.000553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.367619 seconds.
+  path: Assets/Scripts/Assembly-CSharp/RoboLoadingInterstitial.cs
+  artifactKey: Guid(9a811f3431ee3a99f91f08708003b6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Assembly-CSharp/RoboLoadingInterstitial.cs using Guid(9a811f3431ee3a99f91f08708003b6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7416d3f4e14de0b58464732d2829c22b') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.833587 seconds.
+  path: Assets/Scripts/Assembly-CSharp/RoboATT.cs
+  artifactKey: Guid(0f32e65a6d9d334722436e51bec9e2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Assembly-CSharp/RoboATT.cs using Guid(0f32e65a6d9d334722436e51bec9e2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5f816d104a076ce313be238daf08e171') in 0.000457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.811174 seconds.
+  path: Assets/Scripts/Assembly-CSharp/RoboAdInit.cs
+  artifactKey: Guid(09654694f6b1a7a4e4b8fe21da7a6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Assembly-CSharp/RoboAdInit.cs using Guid(09654694f6b1a7a4e4b8fe21da7a6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5e856a5e2ae3d198681b8fdf14bfaf14') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.249040 seconds.
+  path: Assets/Scripts/Assembly-CSharp/RoboAdInfo.cs
+  artifactKey: Guid(4fbf70394bf2dc07911d9422aa429a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Assembly-CSharp/RoboAdInfo.cs using Guid(4fbf70394bf2dc07911d9422aa429a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c19dfd9ca6f8182b65dd81175eeb8761') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.536739 seconds.
+  path: Assets/Scripts/Assembly-CSharp/RoboAdBanner.cs
+  artifactKey: Guid(d5715539d7d40a297e484a8897fc6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Assembly-CSharp/RoboAdBanner.cs using Guid(d5715539d7d40a297e484a8897fc6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3963c55998924df05353fdd928ed3be8') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.904401 seconds.
+  path: Assets/Scripts/Assembly-CSharp/RoboInterstitial.cs
+  artifactKey: Guid(7624d721fa6666773b43c18b63d5efa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Assembly-CSharp/RoboInterstitial.cs using Guid(7624d721fa6666773b43c18b63d5efa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '602a96041f48651e5a4f04df5fb71c66') in 0.000504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.957849 seconds.
+  path: Assets/Scripts/Assembly-CSharp/RoboLoadingOpenAd.cs
+  artifactKey: Guid(8fe4a6cef4bb653866e53d359c946122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Assembly-CSharp/RoboLoadingOpenAd.cs using Guid(8fe4a6cef4bb653866e53d359c946122) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf755da2a973dc74f33990970ad8b7f9') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.267 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.330 seconds
+Domain Reload Profiling: 597ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (22ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (331ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (212ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (29.0 KB). Loaded Objects now: 810.
+Memory consumption went from 56.3 MB to 56.3 MB.
+Total: 2.552400 ms (FindLiveObjects: 0.068300 ms CreateObjectMapping: 0.012400 ms MarkObjects: 2.428200 ms  DeleteObjects: 0.042000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Button.cs: 18874d3cd8f6e3668320e6beabdb6cbc -> 
+  custom:scripting/monoscript/fileName/LayoutUtility.cs: 5aad751cb79650d7f92ebd417a09943c -> 
+  custom:scripting/monoscript/fileName/ActivateTrigger.cs: c17dbf6ebd3571655102669753f97191 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LayoutRebuilder.cs: 361ab5c1dfc0dd155ae206d28605f701 -> 
+  custom:scripting/monoscript/fileName/AppStateEventClient.cs: 078b01f459214187a7fb38e764695fca -> 
+  custom:scripting/monoscript/fileName/IResponseInfoClient.cs: b07ef8eb11fb35adc8612e7933f05df6 -> 
+  custom:scripting/monoscript/fileName/FOVKick.cs: d136c86792778333cf463e29c8f7ade6 -> 
+  custom:scripting/monoscript/fileName/Clipping.cs: 5c87c7b6bd30043817e201557e09a654 -> 
+  custom:scripting/monoscript/fileName/StandaloneInput.cs: 88b73dc74cc44043423a370601c3162d -> 
+  custom:scripting/monoscript/fileName/TimedObjectActivator.cs: 84d59b656049724ff4d137b83abcc377 -> 
+  custom:scripting/monoscript/fileName/Student.cs: f4b94843976b80fa810352a116f24d3f -> 
+  custom:scripting/monoscript/fileName/MonoPInvokeCallbackAttribute.cs: f1ad341d16cc3cf8b4549cd0af0e7249 -> 
+  custom:scripting/monoscript/fileName/ColorBlockDrawer.cs: 5ce7ef2ba701206222b82e777add9575 -> 
+  custom:scripting/monoscript/fileName/VirtualInput.cs: dc5775c312c5ecb7052c36f3d3ca27fc -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 11af4b90318823aa68a285f0f2d513aa -> 
+  custom:scripting/monoscript/fileName/GoogleMobileAdsClientFactory.cs: 2e7a6a0015a7f8e1c60d2def195ecb70 -> 
+  custom:scripting/monoscript/fileName/IConsentFormClient.cs: 28e42f5e74830cb0c22fa0d7fceb7bc2 -> 
+  custom:scripting/monoscript/fileName/BaseMeshEffect.cs: d6e560340e123aa95f6f5a8a2fcdf11f -> 
+  custom:scripting/monoscript/fileName/ApplicationPreferencesClient.cs: cf8195453e8c0fb5e0e50645ae2f14ab -> 
+  custom:scripting/monoscript/fileName/DropdownOptionListDrawer.cs: 2b2ea9c97f9351f45324b7dd26de9002 -> 
+  custom:scripting/monoscript/fileName/DefaultControls.cs: 553a49af5274967d9937dc08d9e54483 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/IndexedSet.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/FollowTarget.cs: b1a6ed13124065658ba5d24dfcda5053 -> 
+  custom:scripting/monoscript/fileName/FootSound.cs: 50acff23196b5b9a305bd54d98bf2e42 -> 
+  custom:scripting/monoscript/fileName/IMaskable.cs: 7d1a33632a371b7839c89496b37570f7 -> 
+  custom:scripting/monoscript/fileName/SetPropertyUtility.cs: f604b4b9e6b0979bdfc1e2b40426dd19 -> 
+  custom:scripting/monoscript/fileName/RewardBasedVideoAd.cs: eb427df501d3a4781d5ec15e0b22ebee -> 
+  custom:scripting/monoscript/fileName/MobileAdsClient.cs: 9120e83b300826d7640b3ae52019e9fc -> 
+  custom:scripting/monoscript/fileName/ScrollRect.cs: ad946dcd0c52e084febb1a202c6365b7 -> 
+  custom:scripting/monoscript/fileName/NativeExpressAdView.cs: 9cf20bca926ef50363747bd88996f50b -> 
+  custom:scripting/monoscript/fileName/ImageEditor.cs: 445a540a125ce6a604545e302da59d0d -> 
+  custom:scripting/monoscript/fileName/DefaultInAppPurchaseListener.cs: 01e7c5331e00c52850b51fd7e12db465 -> 
+  custom:scripting/monoscript/fileName/IClipRegion.cs: 7f6cd92e6d4df0295c24c7c4ddc064ba -> 
+  custom:scripting/monoscript/fileName/MaxAdContentRating.cs: eeb4897f322a59661e003214aa652d29 -> 
+  custom:scripting/monoscript/fileName/RectangularVertexClipper.cs: b6da5fc33d733831211174eb77db8240 -> 
+  custom:scripting/monoscript/fileName/CanvasController.cs: 6790d50a096deebd4a1713acf607b3ac -> 
+  custom:scripting/monoscript/fileName/SimpleJoystick.cs: 3418f56a832cf88800cd3ff9c9a66a7f -> 
+  custom:scripting/monoscript/fileName/EventSystem.cs: 9893ce071eb20d5c73342946ea902daa -> 
+  custom:scripting/monoscript/fileName/SoundController.cs: 336a9494f46a59e4c974300a82291fb6 -> 
+  custom:scripting/monoscript/fileName/AspectRatioFitterEditor.cs: ca909eaa36fb5ef0289fe980de644381 -> 
+  custom:scripting/monoscript/fileName/DynamicShadowSettings.cs: 4d386fbb6170c62321b4d131fcbbb95b -> 
+  custom:scripting/monoscript/fileName/AlertViewController.cs: 28c2b9d996b2fca238a155b00193395e -> 
+  custom:scripting/monoscript/fileName/AdRequest.cs: 03bfc106a35603f007cf4857ecc2a5ad -> 
+  custom:scripting/monoscript/fileName/ContentSizeFitter.cs: e2715cebc3fc71ede47fde6d9e9995cc -> 
+  custom:scripting/monoscript/fileName/AdErrorClientEventArgs.cs: 6ed6fd2f468fde116093c45fc6096ded -> 
+  custom:scripting/monoscript/fileName/ScrollRectEditor.cs: 3c0730e578aa8d8fd5bfc2f3205e2ba0 -> 
+  custom:scripting/monoscript/fileName/SceneController.cs: 3ef5623db2458cc6fd817fc6271b7e41 -> 
+  custom:scripting/monoscript/fileName/HorizontalLayoutGroup.cs: 8a5b3f08374a0e6bc0ae61c7820d3dc9 -> 
+  custom:scripting/monoscript/fileName/Reward.cs: 3f629f33d3a6520340b463bdd78d7fb8 -> 
+  custom:scripting/monoscript/fileName/ToggleEditor.cs: bd84b18f689a3b85ecdf512fffc714e6 -> 
+  custom:scripting/monoscript/fileName/AdapterResponseInfoClient.cs: ab4bee057d3a5b74d59ffc402c1079f2 -> 
+  custom:scripting/monoscript/fileName/IAdapterResponseInfoClient.cs: 3a8e0559a8293d06d74b44859331132f -> 
+  custom:scripting/monoscript/fileName/MaskableGraphic.cs: aad20bbffec73c4b301a1ae8e335759b -> 
+  custom:scripting/monoscript/fileName/Text.cs: f3cd2527cc0cf233b21b58a0a7d6ebc9 -> 
+  custom:scripting/monoscript/fileName/NativeTemplateStyle.cs: c0bb5532380999dcd3a1c50d43379d0e -> 
+  custom:scripting/monoscript/fileName/TextEditor.cs: 0795927915f8ee9dc27f674f60e96764 -> 
+  custom:scripting/monoscript/fileName/ClipperRegistry.cs: 8e6c24182f27f55fb4de3b4cdfe95c6c -> 
+  custom:scripting/monoscript/fileName/InAppPurchaseResult.cs: 53bfbbb8695f288ab7ddcee762772ab3 -> 
+  custom:scripting/monoscript/fileName/StudentAttackZone.cs: 4b39060cf23490a3713936f61fb2db0e -> 
+  custom:scripting/monoscript/fileName/RectMask2D.cs: 4d0473b9b97e6b8149c43fe7277f2c32 -> 
+  custom:scripting/monoscript/fileName/SpriteState.cs: 57b3309510f8493daf4f3019efe64711 -> 
+  custom:scripting/monoscript/fileName/SpawnCloud.cs: 021229583528cf7372de26e8196988f5 -> 
+  custom:scripting/monoscript/fileName/GameController.cs: b39d91587c2553fd886ac9cec92f1e80 -> 
+  custom:scripting/monoscript/fileName/SpriteStateDrawer.cs: 5df3134a6f23a9419d53d42b06555043 -> 
+  custom:scripting/monoscript/fileName/AdValue.cs: 508aaf0b8b85952f1e81d81cc820e53d -> 
+  custom:scripting/monoscript/fileName/CurveControlledBob.cs: fd3c34ca61c0dfb6328f54c1782436be -> 
+  custom:scripting/monoscript/fileName/AutoMobileShaderSwitch.cs: dbc4b61687edf370102702d571f8ec2b -> 
+  custom:scripting/monoscript/fileName/PrefabLayoutRebuilder.cs: a5c4903b52cf08d0d76a12531586d566 -> 
+  custom:scripting/monoscript/fileName/IMeshModifier.cs: d34ea46c6ec982082dceca7968209d0b -> 
+  custom:scripting/monoscript/fileName/InputField.cs: 50f5a4450f02a1646ac6ec7a42f31f75 -> 
+  custom:scripting/monoscript/fileName/StudentUserControl.cs: b341ff2254984eb6ce2ed0ebb0943c0e -> 
+  custom:scripting/monoscript/fileName/Slider.cs: fa9653030ac65718025b6955291e99ef -> 
+  custom:scripting/monoscript/fileName/PointerEventData.cs: 3c7a8b2c3ff2e04116c5ea92277d670a -> 
+  custom:scripting/monoscript/fileName/OnConsentInfoUpdateSuccessListener.cs: daed7b559eefe2d44aa76b312616e126 -> 
+  custom:scripting/monoscript/fileName/AutoCam.cs: ae81c0234c6aa2e342909cd6ad8531f9 -> 
+  custom:scripting/monoscript/fileName/MobileInput.cs: 916a9248ab1eb3f0d791859f028e70d8 -> 
+  custom:scripting/monoscript/fileName/Toggle.cs: fc59b554e8aca13c5f78dc9bb5f2dcbb -> 
+  custom:scripting/monoscript/fileName/OnConsentFormDismissedListener.cs: 8f0e86a5438db026c3c03a9fb71c0c85 -> 
+  custom:scripting/monoscript/fileName/RaycastResult.cs: 3da05e5f8945f9e35dd9f158a0fc91b7 -> 
+  custom:scripting/monoscript/fileName/ButtonEditor.cs: 5ac506fb7c7a0164c335183377af7ab2 -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.UI: 6bae215471362000d6dbd3e0ee304a50 -> 
+  custom:scripting/monoscript/fileName/ConsentDebugSettings.cs: 11bada09d4c74bd4a7edc87b39603aae -> 
+  custom:scripting/monoscript/fileName/Physics2DRaycaster.cs: 532e9bb49f140fabac2c7047d6401ab9 -> 
+  custom:scripting/monoscript/fileName/IAdInspectorErrorClient.cs: b7e439c199787de995689b4243f44d3d -> 
+  custom:scripting/monoscript/fileName/ILoadAdErrorClient.cs: 69592947daa50c3400ccf573ab627ed6 -> 
+  custom:scripting/monoscript/fileName/StencilMaterial.cs: c69bffbf7b7d04b1aed525ae7043b52a -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: e35012b3e8f0b9a62e22595c530c4b09 -> 
+  custom:scripting/monoscript/fileName/ToggleGroup.cs: 861cd52fff6f1d7a73f5457b3b97dda8 -> 
+  custom:scripting/monoscript/fileName/Outline.cs: abe7a3b85236fa2aa6a727443644081c -> 
+  custom:scripting/monoscript/fileName/RawImage.cs: 9b1f9ced27d17db391e342a1964f4b65 -> 
+  custom:scripting/monoscript/fileName/AxisEventData.cs: bd68a02a31e92e066ceec31b011fbc57 -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.UI: 7ac2e4ab0e1385bc66dd6dd258282fe3 -> 
+  custom:scripting/monoscript/fileName/MenuController.cs: f98156acb6c9b62b4aff1540a104a198 -> 
+  custom:scripting/monoscript/fileName/ConsentInformationClient.cs: d3174b6c5ff8ef42ce2529819fcd0b5c -> 
+  custom:scripting/monoscript/fileName/Physics2DRaycasterEditor.cs: 9e7f63ac2881662ae3bbd50a4338aa2a -> 
+  custom:scripting/monoscript/fileName/FinishAnim.cs: cf865f8a05aacf96239bc681aa38dbd5 -> 
+  custom:scripting/monoscript/fileName/NativeExpressAdClient.cs: 2a5c17f00844a4cd6734bdc8e2b16db0 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdapterStatus.cs: 487500d48849153a5de2d5ec91fc79c6 -> 
+  custom:scripting/monoscript/fileName/AdLoader.cs: 6427d799a3b6e9742afd683a9715880b -> 
+  custom:scripting/monoscript/fileName/NativeOverlayAdClient.cs: 86fdbc8f4b594f477a13ea060d537cd1 -> 
+  custom:scripting/monoscript/fileName/Misc.cs: 7ed2e50827551a4e78c69f183dffa2c9 -> 
+  custom:scripting/monoscript/fileName/IInAppPurchaseResult.cs: feafa53c0b3d3f1f8a0ce252cb357387 -> 
+  custom:scripting/monoscript/fileName/LoadAdErrorClient.cs: 3e7386a16291c8f12a84332114c8cd50 -> 
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 6409c10c17b027813bf616cbbd82342d -> 
+  custom:scripting/monoscript/fileName/CameraRefocus.cs: ad0ece5675b71eb36894f0c255f332e4 -> 
+  custom:scripting/monoscript/fileName/HorizontalOrVerticalLayoutGroup.cs: eac4934c775299d8b76ff59142d92fe4 -> 
+  custom:scripting/monoscript/fileName/InputAxisScrollbar.cs: ac9f721155332e2772dc111905c4d583 -> 
+  custom:scripting/monoscript/fileName/CustomInAppPurchase.cs: 2e8598b283a0f5ba356559cc61845db2 -> 
+  custom:scripting/monoscript/fileName/CoroutineTween.cs: 145a57fb4b19fcfb123b1dcc9c6ec846 -> 
+  custom:scripting/monoscript/fileName/Image.cs: dab426e5f5622a0f37965b80d0c94886 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaypointCircuit.cs: 06398e30b670de3f47607b45ceb108cf -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: f66f5add0fcf4501d08694778f1effdc -> 
+  custom:scripting/monoscript/fileName/BannerView.cs: 0e7cd1d39581ddd87ee7e2aa01d5fdfa -> 
+  custom:scripting/monoscript/fileName/CustomNativeTemplateClient.cs: 6036f2706a04721b096f4976fba102cf -> 
+  custom:scripting/monoscript/fileName/ParticleSystemDestroyer.cs: 4a3ccd840619c24dbe6ed070600d5d9e -> 
+  custom:scripting/monoscript/fileName/AdManagerInterstitialClient.cs: 5d73eaceee5460f581cdb2aa3a724be0 -> 
+  custom:scripting/monoscript/fileName/CustomInAppPurchaseListener.cs: 3b251460dae02703e16e364d1f09d7ec -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7b928d865ff79aea8964256bf759dea6 -> 
+  custom:scripting/monoscript/fileName/AspectRatioFitter.cs: d0d41744e6957c53bac0c4dfa076cfbe -> 
+  custom:scripting/monoscript/fileName/RoboSafeArea.cs: f4e17af8d804b0bc3cdbde6ac0920c09 -> 
+  custom:scripting/monoscript/fileName/StudentAI.cs: 048b2b9cd5f1d727bee395a6aaeb0afa -> 
+  custom:scripting/monoscript/fileName/RoboLoading.cs: da52830bf708ef5e9ff4607884eda5ab -> 
+  custom:scripting/monoscript/fileName/SmoothFollow.cs: 6827ffa1ee9ce151924316a12a17fd6f -> 
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: 569fe548a68bbe05737c846b6136fd7c -> 
+  custom:scripting/monoscript/fileName/RequestConfiguration.cs: cb544a5f4369092f2f1a9d53405d0c94 -> 
+  custom:scripting/monoscript/fileName/BannerClient.cs: 5ec77b5ab5694d89e38dc6ef83bcba42 -> 
+  custom:scripting/monoscript/fileName/AdInspectorErrorClient.cs: 998094dc08106808a87547c910a74937 -> 
+  custom:scripting/monoscript/fileName/GraphicRebuildTracker.cs: 8de94ef43240abdb34f228fee6977ffb -> 
+  custom:scripting/monoscript/fileName/AppStateEventNotifier.cs: 1fb27395dd225f404e4c0ba29dd70eb7 -> 
+  custom:scripting/monoscript/fileName/TouchPad.cs: 6807f02d81a6bfd6af95f1e26dad1c08 -> 
+  custom:scripting/monoscript/fileName/CanvasScalerEditor.cs: 45d5b31aba10a8b7f96c6429c8d1cf15 -> 
+  custom:scripting/monoscript/fileName/WaypointProgressTracker.cs: 4258c6b0386daa037a45b680ab62a1e0 -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: fbcb717fad2034192c3ecbc696d6e019 -> 
+  custom:scripting/monoscript/fileName/HandHeldCam.cs: 39d3287cbb1e5c085859aee4b8cca7a8 -> 
+  custom:scripting/monoscript/fileName/AdManagerBannerClient.cs: 27ee537648609c4a25e6ae335847c755 -> 
+  custom:scripting/monoscript/fileName/PhysicsRaycasterEditor.cs: 110591b94d444b72f6a02c548bb7e869 -> 
+  custom:scripting/monoscript/fileName/PanelRaycaster.cs: 57c5b48d37b14bf434fbeb37894146ef -> 
+  custom:scripting/monoscript/fileName/RewardedInterstitialAdClient.cs: 0db3e73776e620512f26411a21ab0b30 -> 
+  custom:scripting/monoscript/fileName/VertexHelper.cs: d79122a4ca8eedf6798884cad51c94ef -> 
+  custom:scripting/monoscript/fileName/AdErrorClient.cs: 122d830b9b3139bad05b8ea0d66eaa15 -> 
+  custom:scripting/monoscript/fileName/InitializationStatus.cs: 9f61f7d146c186240c4227c8101cf33a -> 
+  custom:scripting/monoscript/fileName/Shadow.cs: 7884315ffc3a3b9bc418d86e8992798d -> 
+  custom:scripting/monoscript/fileName/AnimTag.cs: 39953714109c62efb11be29836693e8c -> 
+  custom:scripting/monoscript/fileName/ICustomNativeTemplateClient.cs: fe6f3cf87bb6f3a3498b9726a55ee3b3 -> 
+  custom:scripting/monoscript/fileName/EventTriggerEditor.cs: 6ea4cbbbbfa1cf486ec109d8109386ab -> 
+  custom:scripting/monoscript/fileName/BaseInputModule.cs: e5d51419cd83ddd14cfd2bfec49bced5 -> 
+  custom:scripting/monoscript/fileName/TouchInputModule.cs: f649e6d16e6a2b3e3d9ef2fc7f32a42a -> 
+  custom:scripting/monoscript/fileName/MediationExtras.cs: 93505023cf6cf2741ffb1f9c83c83a44 -> 
+  custom:scripting/monoscript/fileName/AdManagerAdRequest.cs: 56931cf01d4d31a872b2d2f4d6dfbed7 -> 
+  custom:scripting/monoscript/fileName/AdInspectorErrorClientEventArgs.cs: 9c21b5063c5846740aa8955a7215b13f -> 
+  custom:scripting/monoscript/fileName/AdError.cs: ab2ecacad16fa586b1ef2540929c90f3 -> 
+  custom:scripting/monoscript/fileName/FPSCounter.cs: 61325357dea45ada3313f117fe0f7127 -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 20b46bf5344ef281d9becc169327f3ed -> 
+  custom:scripting/monoscript/fileName/UmpClientFactory.cs: 41336bf067fed6b9cb6ed5d03fee50c0 -> 
+  custom:scripting/monoscript/fileName/OnConsentInfoUpdateFailureListener.cs: 11575417ba6fb2ae939c8d57a3aedeef -> 
+  custom:scripting/monoscript/fileName/IInitializationStatusClient.cs: 96ea53635e9013c0fd6cdb216f862ad2 -> 
+  custom:scripting/monoscript/fileName/MaskUtilities.cs: 1ac31d7c3f0aeeb6154c06c4f379fbda -> 
+  custom:scripting/monoscript/fileName/RooftopMenuController.cs: 43322e280374478ea5584febb118235f -> 
+  custom:scripting/monoscript/fileName/BaseEventData.cs: fe1c8385b48c0521893f28f747b6fc69 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ColorBlock.cs: 425ee059ac60082d71e36b92bc05c817 -> 
+  custom:scripting/monoscript/fileName/LerpControlledBob.cs: e1bf67f0a3095bf49332446dc0219443 -> 
+  custom:scripting/monoscript/fileName/StudentHealth.cs: 90b0840f784c28b9b0e2d2393dcb7260 -> 
+  custom:scripting/monoscript/fileName/NavigationDrawer.cs: d6f1c1b7e626587e232b7c29fd8317ca -> 
+  custom:scripting/monoscript/fileName/IAppStateEventClient.cs: b40b1edf5a39b1d493dfd0bd38c3d757 -> 
+  custom:scripting/monoscript/fileName/SpriteDrawUtility.cs: 63a19974af19378fa2ed74e2b9646e43 -> 
+  custom:scripting/monoscript/fileName/RaycasterManager.cs: 734ccc1eb36467642b0349d544b4126e -> 
+  custom:scripting/monoscript/fileName/PhysicsRaycaster.cs: 55704cfd308f55e8f2100e1978b8c859 -> 
+  custom:scripting/monoscript/fileName/IMobileAdsClient.cs: cae5a9ce75aa744cbb821967bd85b24f -> 
+  custom:scripting/monoscript/fileName/IAdErrorClient.cs: 8ceb92f4f97f54e668f610599c7ffbf4 -> 
+  custom:scripting/monoscript/fileName/ObjectResetter.cs: 4729f3c5ec4320f6d42859ed0a7e4fcc -> 
+  custom:scripting/monoscript/fileName/AppOpenAdClient.cs: 429a4d501d6ea8453430ccc6bb549eb6 -> 
+  custom:scripting/monoscript/fileName/AdFailedToLoadEventArgs.cs: a2af71380444df3cdbd20ffdda4cf51c -> 
+  custom:scripting/monoscript/fileName/GraphicRegistry.cs: 98589adfc9bed38aa1284f52d0906cff -> 
+  custom:scripting/monoscript/fileName/AnimationTriggers.cs: 71e2bc068282cb51ef0c9c07f7c83c0e -> 
+  custom:scripting/monoscript/fileName/TiltInput.cs: 005a4f12ebe0782535d5f88c408eacfe -> 
+  custom:scripting/monoscript/fileName/ContentSizeFitterEditor.cs: d3472f0757f80a46d91353f6d23b99b9 -> 
+  custom:scripting/monoscript/fileName/PlatformSpecificContent.cs: d80b16e46fa47259f162b60d4de03e39 -> 
+  custom:scripting/monoscript/fileName/RawImageEditor.cs: a27f397991c9e00c409e9e5f249ac4cf -> 
+  custom:scripting/monoscript/fileName/IMaterialModifier.cs: 22379bdba952e76eedc3495376a7f365 -> 
+  custom:scripting/monoscript/fileName/SliderEditor.cs: 311387dff33e7f968557acb6719ff318 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SelectableEditor.cs: 1481d527b8e3461180bdeab828e61e72 -> 
+  custom:scripting/monoscript/fileName/StandaloneInputModule.cs: bdd0257dc8587dc277481ed15f006d00 -> 
+  custom:scripting/monoscript/fileName/IAdManagerBannerClient.cs: c51a01065b8673794262da120b6a00fc -> 
+  custom:scripting/monoscript/fileName/SimpleMouseRotator.cs: dba573bcb546f175149e62ba814f5b72 -> 
+  custom:scripting/monoscript/fileName/IClientFactory.cs: f8128aa267a98f908226ec691f841d2d -> 
+  custom:scripting/monoscript/fileName/CrossPlatformInputManager.cs: 6de8af81d021eaf9393099950d116e92 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: 9afc567523072d385e7e839f14f42a40 -> 
+  custom:scripting/monoscript/fileName/ExecuteEvents.cs: 09bdf6afd188bdc384f065aac6293d3f -> 
+  custom:scripting/monoscript/fileName/CustomNativeTemplateAd.cs: f7a8e95bce211fc2f6406d2f60529de7 -> 
+  custom:scripting/monoscript/fileName/IAdManagerInterstitialClient.cs: e61f0c2b706f6fb3d4657fb78cf3a8b1 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 2124093b3f8a7fbb31af4584d7906f17 -> 
+  custom:scripting/monoscript/fileName/InterceptedEventsPreview.cs: 94e846ba0cdb752454d2d472cfe36d16 -> 
+  custom:scripting/monoscript/fileName/ProtectCameraFromWallClip.cs: 4c140574803b995cdf559398f585d40b -> 
+  custom:scripting/monoscript/fileName/MobileAds.cs: 3d200195932cca28ae62137384dc88bf -> 
+  custom:scripting/monoscript/fileName/MenuOptions.cs: d79d6d6d5841de7e6374a43e8dcef5a4 -> 
+  custom:scripting/monoscript/fileName/NativeTemplateTextStyle.cs: 92b236436ab9b3aee9a17dd3034d4874 -> 
+  custom:scripting/monoscript/fileName/UIBehaviour.cs: 93a5dfaee450605a3ebf5df8a3c39094 -> 
+  custom:scripting/monoscript/fileName/AppOpenAd.cs: b6f3ca9665261d54762d5989fecc2425 -> 
+  custom:scripting/monoscript/fileName/PositionAsUV1.cs: 2e4459b437a4807ec15690930098829a -> 
+  custom:scripting/monoscript/fileName/Dropdown.cs: e2499375dbab18b142e2db07a091d792 -> 
+  custom:scripting/monoscript/fileName/MobileAdsEventExecutor.cs: 75f26080375c03271d7c3db3ff7e4907 -> 
+  custom:scripting/monoscript/fileName/ConsentFormClient.cs: 1c28e52e939c24b17435f53b5da82b43 -> 
+  custom:scripting/monoscript/fileName/AutoMoveAndRotate.cs: cadb60ca81f0fa092bfbe6288b868ff7 -> 
+  custom:scripting/monoscript/fileName/IConsentInformationClient.cs: d7d52dfdd9723018454164bd1f2ddd43 -> 
+  custom:scripting/monoscript/fileName/SelfControllerEditor.cs: 7085c77278668b218f5204af2c8ef3a1 -> 
+  custom:scripting/monoscript/fileName/GameInfo.cs: b39d91844e6a6494652575297a10781f -> 
+  custom:scripting/monoscript/fileName/StudentAttackParts.cs: 7391486d6e1c015348e96415b4e3720b -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PointerInputModule.cs: c4d4fe7ccbecd5087b916bc87196dbe9 -> 
+  custom:scripting/monoscript/fileName/InitializationStatusClient.cs: 93e2abd95d18232317b62f024cb17a24 -> 
+  custom:scripting/monoscript/fileName/Graphic.cs: a06ccab3be7023340f550cfeaabbe07e -> 
+  custom:scripting/monoscript/fileName/RoboVoice.cs: e577fd32324cb912568f50737781a5c0 -> 
+  custom:scripting/monoscript/fileName/Mask.cs: 30def7c5b8ef23ce62910d8eb0c002c6 -> 
+  custom:scripting/monoscript/fileName/IDefaultInAppPurchaseProcessor.cs: b440b19e0e5a270424742416bbbd0e69 -> 
+  custom:scripting/monoscript/fileName/StudentAILeg.cs: af584b97fbca6a8fd97b5ce3635cc09e -> 
+  custom:scripting/monoscript/fileName/DropdownEditor.cs: 7835943c2b1e7ab14674862cb91ce165 -> 
+  custom:scripting/monoscript/fileName/AxisTouchButton.cs: a7aa800e764d8b80087fc24ac7f59d30 -> 
+  custom:scripting/monoscript/fileName/HorizontalOrVerticalLayoutGroupEditor.cs: b818b9a01e994214d99cc7440db09dec -> 
+  custom:scripting/monoscript/fileName/MultipleDisplayUtilities.cs: 4c3c70e26636165f46aedff2bed06aa3 -> 
+  custom:scripting/monoscript/fileName/LayoutElementEditor.cs: 7b7a8175ebabe6f0476df392a9d779f5 -> 
+  custom:scripting/monoscript/fileName/GraphicEditor.cs: 0dc931f0f060b1c1aa4b9934f3c02068 -> 
+  custom:scripting/monoscript/fileName/LayoutPropertiesPreview.cs: 464f6e736bc56387abed9e1345b58e03 -> 
+  custom:scripting/monoscript/fileName/DragRigidbody.cs: 4603c3af3f13916f3fa935f6c699052a -> 
+  custom:scripting/monoscript/fileName/CanvasScaler.cs: 2ea1923de8f9e015366994adf4a911f8 -> 
+  custom:scripting/monoscript/fileName/IRewardBasedVideoAdClient.cs: 52fe3776767f097f1bf32567a2909d91 -> 
+  custom:scripting/monoscript/fileName/INativeOverlayAdClient.cs: f976585485d33b5671e8cdfcceb486dc -> 
+  custom:scripting/monoscript/fileName/ButtonHandler.cs: bf99f15b4b4da7541cf1a3227d33dba4 -> 
+  custom:scripting/monoscript/fileName/DisplayMetrics.cs: 9dd6f39314eb22275532392bed9d5bd5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IRewardedAdClient.cs: 8e46a696cc2e194f30c5b09591f8a8d9 -> 
+  custom:scripting/monoscript/fileName/EventSystemChecker.cs: 8ff64b04718551a6bca2d6f2b6f6ea6e -> 
+  custom:scripting/monoscript/fileName/InputFieldEditor.cs: ae985d67ad35a24d695667fcf35d81ef -> 
+  custom:scripting/monoscript/fileName/IGraphicEnabledDisabled.cs: 543e967edd29d3f90a7fada795a69d63 -> 
+  custom:scripting/monoscript/fileName/IMask.cs: 4835b27d1d14549285b4f8c83612ebc7 -> 
+  custom:scripting/monoscript/fileName/INativeExpressAdClient.cs: 2f72b1fcc669606130103338830e2d3b -> 
+  custom:scripting/monoscript/fileName/RewardBasedVideoAdClient.cs: 8f22a136215db466bee837f1fecc8859 -> 
+  custom:scripting/monoscript/fileName/Selectable.cs: 355ffa2236bbfbbd4ecc059e599154f4 -> 
+  custom:scripting/monoscript/fileName/FontDataDrawer.cs: f7cbe293c2e3dff2ee39aff7bd4163b1 -> 
+  custom:scripting/monoscript/fileName/FontData.cs: 2624b2b5223fc7daa60b578156662561 -> 
+  custom:scripting/monoscript/fileName/TimedObjectDestructor.cs: 2b9ef5c24d8ac1876bcac32bfbb70091 -> 
+  custom:scripting/monoscript/fileName/IAdLoaderClient.cs: 97b31d34586e7af8e857d799976e4117 -> 
+  custom:scripting/monoscript/fileName/VerticalLayoutGroup.cs: d5cf2f2f23f5247db7d886894bac9b3f -> 
+  custom:scripting/monoscript/fileName/InterstitialAd.cs: 771b75c563b7c278825a029d8083cee3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/IRewardedInterstitialAdClient.cs: bb87a7c9e15ff948f68b3b7321f3c1ca -> 
+  custom:scripting/monoscript/fileName/TargetFieldOfView.cs: 51d23f9917ca2bff79136f2f326daaed -> 
+  custom:scripting/monoscript/fileName/IInterstitialClient.cs: 83607c52750641f5283d9d4590876d97 -> 
+  custom:scripting/monoscript/fileName/BGMController.cs: 8b121817cf318136f977e80329455398 -> 
+  custom:scripting/monoscript/fileName/RectMask2DEditor.cs: f121c7dbc11fd506db77fcd126dfa3fc -> 
+  custom:scripting/monoscript/fileName/MaskEditor.cs: 3bd6622b0f25c580774e523433166ef0 -> 
+  custom:scripting/monoscript/fileName/PanelEventHandler.cs: ba6769d051300e140797e22cf69b8ced -> 
+  custom:scripting/monoscript/fileName/GridLayoutGroupEditor.cs: e48ddca2b2d4210562ae141b312d8312 -> 
+  custom:scripting/monoscript/fileName/ILayoutElement.cs: a5941e42345b87779111dd71a1bb5868 -> 
+  custom:scripting/monoscript/fileName/FormError.cs: 2a5d2fade14a65976dfb99745c1a44fe -> 
+  custom:scripting/monoscript/fileName/BaseRaycaster.cs: e37362e329c8091c64b863e33af2335e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/OnConsentFormLoadFailureListener.cs: 5caa8b922b9d6a05b3d6e8ef925843f0 -> 
+  custom:scripting/monoscript/fileName/IApplicationPreferencesClient.cs: 5527eeb2f73bc8122fa646ef1b142f91 -> 
+  custom:scripting/monoscript/fileName/RequestConfigurationClient.cs: 2bb09ee5243e515d54b8462c3a5ea2cd -> 
+  custom:scripting/monoscript/fileName/CustomNativeEventArgs.cs: f666e5091b7f3e8b349100896254b062 -> 
+  custom:scripting/monoscript/fileName/AppEvent.cs: d76b9b8870f3359e1d5f0890c8a08810 -> 
+  custom:scripting/monoscript/fileName/LoadAdErrorClientEventArgs.cs: a7a2f8e5d0f7f8799d20ac3aacc25395 -> 
+  custom:scripting/monoscript/fileName/DummyClient.cs: eb95fd880d462fdae09cd043197f4dc0 -> 
+  custom:scripting/monoscript/fileName/ResponseInfoClient.cs: 934198fd4a6ecf834c51902355a3c65a -> 
+  custom:scripting/monoscript/fileName/LoadAdError.cs: 30d41f25b3a0c0388c5c87e35b8145d9 -> 
+  custom:scripting/monoscript/fileName/IBannerClient.cs: f9df540751f64c7c663093ee72af7105 -> 
+  custom:scripting/monoscript/fileName/VideoOptions.cs: d0d9e2b90a68b056df9157181a1e8c61 -> 
+  custom:scripting/monoscript/fileName/InterstitialClient.cs: 1275a62de10a458b691bcfaaf62488c4 -> 
+  custom:scripting/monoscript/fileName/IUmpClientFactory.cs: 24cc417b2a9a24385387ad5b9f5884bc -> 
+  custom:scripting/monoscript/fileName/StudentLeg.cs: f7c6f4072360ce727377b5b86b5cd091 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ServerSideVerificationOptions.cs: d49171325a764c5ee699d1734cee4940 -> 
+  custom:scripting/monoscript/fileName/NativeAdOptions.cs: 465f28402ada573d07281e42d512826d -> 
+  custom:scripting/monoscript/fileName/AdInspectorListener.cs: 80f743e3a68d54a9880d32f1700f0c57 -> 
+  custom:scripting/monoscript/fileName/FontUpdateTracker.cs: 0edf4184b1e65a637688bed2aad2858e -> 
+  custom:scripting/monoscript/fileName/ConsentRequestParameters.cs: e2452f27b5c8c46f80c21ab4b82dea03 -> 
+  custom:scripting/monoscript/fileName/EventTrigger.cs: 302ed930e5ba0917aa82911027f67670 -> 
+  custom:scripting/monoscript/fileName/AdSize.cs: 60014b77b8394b1b47b636d38ddb07e8 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Localizer.cs: 3c969bcbc00bddba4909b5a691e5a5b6 -> 
+  custom:scripting/monoscript/fileName/ReflectionMethodsCache.cs: c5cb035abcaae76940caca8d15cf29e4 -> 
+  custom:scripting/monoscript/fileName/IAppOpenAdClient.cs: 0d0afc34f74c0dc48ebdfdfa7eb41f4c -> 
+  custom:scripting/monoscript/fileName/AnimationTriggersDrawer.cs: a95af93c1a59bab8729323baee4360e5 -> 
+  custom:scripting/monoscript/fileName/RewardedAdClient.cs: 82c368285d18c8c06a328b87c3a1130b -> 
+  custom:scripting/monoscript/fileName/LookatTarget.cs: 24990fd6a1942dd499cec63d308f9c02 -> 
+  custom:scripting/monoscript/fileName/OnConsentFormLoadSuccessListener.cs: eb2356ebf7b8fbce21b27007fcfc2fdb -> 
+  custom:scripting/monoscript/fileName/AdLoaderClient.cs: 25e8a11a1b7948177c43756bf41a1444 -> 
+  custom:scripting/monoscript/fileName/ScrollbarEditor.cs: b44327427537937c6a57f8543906e016 -> 
+  custom:scripting/monoscript/fileName/MobileControlRig.cs: edcf953c7c7f28c0e7c76ed3794b771a -> 
+  custom:scripting/monoscript/fileName/EventInterfaces.cs: 207de7b71ff167cef7ae4584652d1556 -> 
+  custom:scripting/monoscript/fileName/GridLayoutGroup.cs: 43759e18a5ea1dda932d71b40c61dda6 -> 
+  custom:scripting/monoscript/fileName/GraphicRaycaster.cs: 0fc8c9d6ff17669221a0b586bde06477 -> 
+  custom:scripting/monoscript/fileName/CanvasUpdateRegistry.cs: bdf5b5b4904888a4c7ec20bc9ff4f0a2 -> 
+  custom:scripting/monoscript/fileName/ICustomInAppPurchaseProcessor.cs: f838330b3221c6a6923f626d7493da8e -> 
+  custom:scripting/monoscript/fileName/ICustomInAppPurchase.cs: 22f662ccc67246622bc7515778898d41 -> 
+  custom:scripting/monoscript/fileName/Scrollbar.cs: 042fdb4d377c0d68cf1021e2ead3c650 -> 
+  custom:scripting/monoscript/fileName/EventSystemEditor.cs: 76f2d1177650edec9abc8c01fb91473a -> 
+  custom:scripting/monoscript/fileName/LayoutElement.cs: 0ad083ca76b6eceec2f3e5e824de2611 -> 
+  custom:scripting/monoscript/fileName/LayoutGroup.cs: 47296f37423e45582ae2a1285f1834e1 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.048862 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(907f29c44125b06428904af30a122432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(907f29c44125b06428904af30a122432) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c9ad2b382d1a8235de3a6b7c93854257') in 0.001983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.254 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 622ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (15ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (368ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.8 KB). Loaded Objects now: 810.
+Memory consumption went from 56.3 MB to 56.3 MB.
+Total: 2.191700 ms (FindLiveObjects: 0.065300 ms CreateObjectMapping: 0.011300 ms MarkObjects: 2.094700 ms  DeleteObjects: 0.019500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Button.cs: 18874d3cd8f6e3668320e6beabdb6cbc -> 
+  custom:scripting/monoscript/fileName/LayoutUtility.cs: 5aad751cb79650d7f92ebd417a09943c -> 
+  custom:scripting/monoscript/fileName/ActivateTrigger.cs: c17dbf6ebd3571655102669753f97191 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LayoutRebuilder.cs: 361ab5c1dfc0dd155ae206d28605f701 -> 
+  custom:scripting/monoscript/fileName/AppStateEventClient.cs: 078b01f459214187a7fb38e764695fca -> 
+  custom:scripting/monoscript/fileName/IResponseInfoClient.cs: b07ef8eb11fb35adc8612e7933f05df6 -> 
+  custom:scripting/monoscript/fileName/FOVKick.cs: d136c86792778333cf463e29c8f7ade6 -> 
+  custom:scripting/monoscript/fileName/Clipping.cs: 5c87c7b6bd30043817e201557e09a654 -> 
+  custom:scripting/monoscript/fileName/StandaloneInput.cs: 88b73dc74cc44043423a370601c3162d -> 
+  custom:scripting/monoscript/fileName/TimedObjectActivator.cs: 84d59b656049724ff4d137b83abcc377 -> 
+  custom:scripting/monoscript/fileName/Student.cs: f4b94843976b80fa810352a116f24d3f -> 
+  custom:scripting/monoscript/fileName/MonoPInvokeCallbackAttribute.cs: f1ad341d16cc3cf8b4549cd0af0e7249 -> 
+  custom:scripting/monoscript/fileName/ColorBlockDrawer.cs: 5ce7ef2ba701206222b82e777add9575 -> 
+  custom:scripting/monoscript/fileName/VirtualInput.cs: dc5775c312c5ecb7052c36f3d3ca27fc -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 11af4b90318823aa68a285f0f2d513aa -> 
+  custom:scripting/monoscript/fileName/GoogleMobileAdsClientFactory.cs: 2e7a6a0015a7f8e1c60d2def195ecb70 -> 
+  custom:scripting/monoscript/fileName/IConsentFormClient.cs: 28e42f5e74830cb0c22fa0d7fceb7bc2 -> 
+  custom:scripting/monoscript/fileName/BaseMeshEffect.cs: d6e560340e123aa95f6f5a8a2fcdf11f -> 
+  custom:scripting/monoscript/fileName/ApplicationPreferencesClient.cs: cf8195453e8c0fb5e0e50645ae2f14ab -> 
+  custom:scripting/monoscript/fileName/DropdownOptionListDrawer.cs: 2b2ea9c97f9351f45324b7dd26de9002 -> 
+  custom:scripting/monoscript/fileName/DefaultControls.cs: 553a49af5274967d9937dc08d9e54483 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/IndexedSet.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/FollowTarget.cs: b1a6ed13124065658ba5d24dfcda5053 -> 
+  custom:scripting/monoscript/fileName/FootSound.cs: 50acff23196b5b9a305bd54d98bf2e42 -> 
+  custom:scripting/monoscript/fileName/IMaskable.cs: 7d1a33632a371b7839c89496b37570f7 -> 
+  custom:scripting/monoscript/fileName/SetPropertyUtility.cs: f604b4b9e6b0979bdfc1e2b40426dd19 -> 
+  custom:scripting/monoscript/fileName/RewardBasedVideoAd.cs: eb427df501d3a4781d5ec15e0b22ebee -> 
+  custom:scripting/monoscript/fileName/MobileAdsClient.cs: 9120e83b300826d7640b3ae52019e9fc -> 
+  custom:scripting/monoscript/fileName/ScrollRect.cs: ad946dcd0c52e084febb1a202c6365b7 -> 
+  custom:scripting/monoscript/fileName/NativeExpressAdView.cs: 9cf20bca926ef50363747bd88996f50b -> 
+  custom:scripting/monoscript/fileName/ImageEditor.cs: 445a540a125ce6a604545e302da59d0d -> 
+  custom:scripting/monoscript/fileName/DefaultInAppPurchaseListener.cs: 01e7c5331e00c52850b51fd7e12db465 -> 
+  custom:scripting/monoscript/fileName/IClipRegion.cs: 7f6cd92e6d4df0295c24c7c4ddc064ba -> 
+  custom:scripting/monoscript/fileName/MaxAdContentRating.cs: eeb4897f322a59661e003214aa652d29 -> 
+  custom:scripting/monoscript/fileName/RectangularVertexClipper.cs: b6da5fc33d733831211174eb77db8240 -> 
+  custom:scripting/monoscript/fileName/CanvasController.cs: 6790d50a096deebd4a1713acf607b3ac -> 
+  custom:scripting/monoscript/fileName/SimpleJoystick.cs: 3418f56a832cf88800cd3ff9c9a66a7f -> 
+  custom:scripting/monoscript/fileName/EventSystem.cs: 9893ce071eb20d5c73342946ea902daa -> 
+  custom:scripting/monoscript/fileName/SoundController.cs: 336a9494f46a59e4c974300a82291fb6 -> 
+  custom:scripting/monoscript/fileName/AspectRatioFitterEditor.cs: ca909eaa36fb5ef0289fe980de644381 -> 
+  custom:scripting/monoscript/fileName/DynamicShadowSettings.cs: 4d386fbb6170c62321b4d131fcbbb95b -> 
+  custom:scripting/monoscript/fileName/AlertViewController.cs: 28c2b9d996b2fca238a155b00193395e -> 
+  custom:scripting/monoscript/fileName/AdRequest.cs: 03bfc106a35603f007cf4857ecc2a5ad -> 
+  custom:scripting/monoscript/fileName/ContentSizeFitter.cs: e2715cebc3fc71ede47fde6d9e9995cc -> 
+  custom:scripting/monoscript/fileName/AdErrorClientEventArgs.cs: 6ed6fd2f468fde116093c45fc6096ded -> 
+  custom:scripting/monoscript/fileName/ScrollRectEditor.cs: 3c0730e578aa8d8fd5bfc2f3205e2ba0 -> 
+  custom:scripting/monoscript/fileName/SceneController.cs: 3ef5623db2458cc6fd817fc6271b7e41 -> 
+  custom:scripting/monoscript/fileName/HorizontalLayoutGroup.cs: 8a5b3f08374a0e6bc0ae61c7820d3dc9 -> 
+  custom:scripting/monoscript/fileName/Reward.cs: 3f629f33d3a6520340b463bdd78d7fb8 -> 
+  custom:scripting/monoscript/fileName/ToggleEditor.cs: bd84b18f689a3b85ecdf512fffc714e6 -> 
+  custom:scripting/monoscript/fileName/AdapterResponseInfoClient.cs: ab4bee057d3a5b74d59ffc402c1079f2 -> 
+  custom:scripting/monoscript/fileName/IAdapterResponseInfoClient.cs: 3a8e0559a8293d06d74b44859331132f -> 
+  custom:scripting/monoscript/fileName/MaskableGraphic.cs: aad20bbffec73c4b301a1ae8e335759b -> 
+  custom:scripting/monoscript/fileName/Text.cs: f3cd2527cc0cf233b21b58a0a7d6ebc9 -> 
+  custom:scripting/monoscript/fileName/NativeTemplateStyle.cs: c0bb5532380999dcd3a1c50d43379d0e -> 
+  custom:scripting/monoscript/fileName/TextEditor.cs: 0795927915f8ee9dc27f674f60e96764 -> 
+  custom:scripting/monoscript/fileName/ClipperRegistry.cs: 8e6c24182f27f55fb4de3b4cdfe95c6c -> 
+  custom:scripting/monoscript/fileName/InAppPurchaseResult.cs: 53bfbbb8695f288ab7ddcee762772ab3 -> 
+  custom:scripting/monoscript/fileName/StudentAttackZone.cs: 4b39060cf23490a3713936f61fb2db0e -> 
+  custom:scripting/monoscript/fileName/RectMask2D.cs: 4d0473b9b97e6b8149c43fe7277f2c32 -> 
+  custom:scripting/monoscript/fileName/SpriteState.cs: 57b3309510f8493daf4f3019efe64711 -> 
+  custom:scripting/monoscript/fileName/SpawnCloud.cs: 021229583528cf7372de26e8196988f5 -> 
+  custom:scripting/monoscript/fileName/GameController.cs: b39d91587c2553fd886ac9cec92f1e80 -> 
+  custom:scripting/monoscript/fileName/SpriteStateDrawer.cs: 5df3134a6f23a9419d53d42b06555043 -> 
+  custom:scripting/monoscript/fileName/AdValue.cs: 508aaf0b8b85952f1e81d81cc820e53d -> 
+  custom:scripting/monoscript/fileName/CurveControlledBob.cs: fd3c34ca61c0dfb6328f54c1782436be -> 
+  custom:scripting/monoscript/fileName/AutoMobileShaderSwitch.cs: dbc4b61687edf370102702d571f8ec2b -> 
+  custom:scripting/monoscript/fileName/PrefabLayoutRebuilder.cs: a5c4903b52cf08d0d76a12531586d566 -> 
+  custom:scripting/monoscript/fileName/IMeshModifier.cs: d34ea46c6ec982082dceca7968209d0b -> 
+  custom:scripting/monoscript/fileName/InputField.cs: 50f5a4450f02a1646ac6ec7a42f31f75 -> 
+  custom:scripting/monoscript/fileName/StudentUserControl.cs: b341ff2254984eb6ce2ed0ebb0943c0e -> 
+  custom:scripting/monoscript/fileName/Slider.cs: fa9653030ac65718025b6955291e99ef -> 
+  custom:scripting/monoscript/fileName/PointerEventData.cs: 3c7a8b2c3ff2e04116c5ea92277d670a -> 
+  custom:scripting/monoscript/fileName/OnConsentInfoUpdateSuccessListener.cs: daed7b559eefe2d44aa76b312616e126 -> 
+  custom:scripting/monoscript/fileName/AutoCam.cs: ae81c0234c6aa2e342909cd6ad8531f9 -> 
+  custom:scripting/monoscript/fileName/MobileInput.cs: 916a9248ab1eb3f0d791859f028e70d8 -> 
+  custom:scripting/monoscript/fileName/Toggle.cs: fc59b554e8aca13c5f78dc9bb5f2dcbb -> 
+  custom:scripting/monoscript/fileName/OnConsentFormDismissedListener.cs: 8f0e86a5438db026c3c03a9fb71c0c85 -> 
+  custom:scripting/monoscript/fileName/RaycastResult.cs: 3da05e5f8945f9e35dd9f158a0fc91b7 -> 
+  custom:scripting/monoscript/fileName/ButtonEditor.cs: 5ac506fb7c7a0164c335183377af7ab2 -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.UI: 6bae215471362000d6dbd3e0ee304a50 -> 
+  custom:scripting/monoscript/fileName/ConsentDebugSettings.cs: 11bada09d4c74bd4a7edc87b39603aae -> 
+  custom:scripting/monoscript/fileName/Physics2DRaycaster.cs: 532e9bb49f140fabac2c7047d6401ab9 -> 
+  custom:scripting/monoscript/fileName/IAdInspectorErrorClient.cs: b7e439c199787de995689b4243f44d3d -> 
+  custom:scripting/monoscript/fileName/ILoadAdErrorClient.cs: 69592947daa50c3400ccf573ab627ed6 -> 
+  custom:scripting/monoscript/fileName/StencilMaterial.cs: c69bffbf7b7d04b1aed525ae7043b52a -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: e35012b3e8f0b9a62e22595c530c4b09 -> 
+  custom:scripting/monoscript/fileName/ToggleGroup.cs: 861cd52fff6f1d7a73f5457b3b97dda8 -> 
+  custom:scripting/monoscript/fileName/Outline.cs: abe7a3b85236fa2aa6a727443644081c -> 
+  custom:scripting/monoscript/fileName/RawImage.cs: 9b1f9ced27d17db391e342a1964f4b65 -> 
+  custom:scripting/monoscript/fileName/AxisEventData.cs: bd68a02a31e92e066ceec31b011fbc57 -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.UI: 7ac2e4ab0e1385bc66dd6dd258282fe3 -> 
+  custom:scripting/monoscript/fileName/MenuController.cs: f98156acb6c9b62b4aff1540a104a198 -> 
+  custom:scripting/monoscript/fileName/ConsentInformationClient.cs: d3174b6c5ff8ef42ce2529819fcd0b5c -> 
+  custom:scripting/monoscript/fileName/Physics2DRaycasterEditor.cs: 9e7f63ac2881662ae3bbd50a4338aa2a -> 
+  custom:scripting/monoscript/fileName/FinishAnim.cs: cf865f8a05aacf96239bc681aa38dbd5 -> 
+  custom:scripting/monoscript/fileName/NativeExpressAdClient.cs: 2a5c17f00844a4cd6734bdc8e2b16db0 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdapterStatus.cs: 487500d48849153a5de2d5ec91fc79c6 -> 
+  custom:scripting/monoscript/fileName/AdLoader.cs: 6427d799a3b6e9742afd683a9715880b -> 
+  custom:scripting/monoscript/fileName/NativeOverlayAdClient.cs: 86fdbc8f4b594f477a13ea060d537cd1 -> 
+  custom:scripting/monoscript/fileName/Misc.cs: 7ed2e50827551a4e78c69f183dffa2c9 -> 
+  custom:scripting/monoscript/fileName/IInAppPurchaseResult.cs: feafa53c0b3d3f1f8a0ce252cb357387 -> 
+  custom:scripting/monoscript/fileName/LoadAdErrorClient.cs: 3e7386a16291c8f12a84332114c8cd50 -> 
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 6409c10c17b027813bf616cbbd82342d -> 
+  custom:scripting/monoscript/fileName/CameraRefocus.cs: ad0ece5675b71eb36894f0c255f332e4 -> 
+  custom:scripting/monoscript/fileName/HorizontalOrVerticalLayoutGroup.cs: eac4934c775299d8b76ff59142d92fe4 -> 
+  custom:scripting/monoscript/fileName/InputAxisScrollbar.cs: ac9f721155332e2772dc111905c4d583 -> 
+  custom:scripting/monoscript/fileName/CustomInAppPurchase.cs: 2e8598b283a0f5ba356559cc61845db2 -> 
+  custom:scripting/monoscript/fileName/CoroutineTween.cs: 145a57fb4b19fcfb123b1dcc9c6ec846 -> 
+  custom:scripting/monoscript/fileName/Image.cs: dab426e5f5622a0f37965b80d0c94886 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaypointCircuit.cs: 06398e30b670de3f47607b45ceb108cf -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: f66f5add0fcf4501d08694778f1effdc -> 
+  custom:scripting/monoscript/fileName/BannerView.cs: 0e7cd1d39581ddd87ee7e2aa01d5fdfa -> 
+  custom:scripting/monoscript/fileName/CustomNativeTemplateClient.cs: 6036f2706a04721b096f4976fba102cf -> 
+  custom:scripting/monoscript/fileName/ParticleSystemDestroyer.cs: 4a3ccd840619c24dbe6ed070600d5d9e -> 
+  custom:scripting/monoscript/fileName/AdManagerInterstitialClient.cs: 5d73eaceee5460f581cdb2aa3a724be0 -> 
+  custom:scripting/monoscript/fileName/CustomInAppPurchaseListener.cs: 3b251460dae02703e16e364d1f09d7ec -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7b928d865ff79aea8964256bf759dea6 -> 
+  custom:scripting/monoscript/fileName/AspectRatioFitter.cs: d0d41744e6957c53bac0c4dfa076cfbe -> 
+  custom:scripting/monoscript/fileName/RoboSafeArea.cs: f4e17af8d804b0bc3cdbde6ac0920c09 -> 
+  custom:scripting/monoscript/fileName/StudentAI.cs: 048b2b9cd5f1d727bee395a6aaeb0afa -> 
+  custom:scripting/monoscript/fileName/RoboLoading.cs: da52830bf708ef5e9ff4607884eda5ab -> 
+  custom:scripting/monoscript/fileName/SmoothFollow.cs: 6827ffa1ee9ce151924316a12a17fd6f -> 
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: 569fe548a68bbe05737c846b6136fd7c -> 
+  custom:scripting/monoscript/fileName/RequestConfiguration.cs: cb544a5f4369092f2f1a9d53405d0c94 -> 
+  custom:scripting/monoscript/fileName/BannerClient.cs: 5ec77b5ab5694d89e38dc6ef83bcba42 -> 
+  custom:scripting/monoscript/fileName/AdInspectorErrorClient.cs: 998094dc08106808a87547c910a74937 -> 
+  custom:scripting/monoscript/fileName/GraphicRebuildTracker.cs: 8de94ef43240abdb34f228fee6977ffb -> 
+  custom:scripting/monoscript/fileName/AppStateEventNotifier.cs: 1fb27395dd225f404e4c0ba29dd70eb7 -> 
+  custom:scripting/monoscript/fileName/TouchPad.cs: 6807f02d81a6bfd6af95f1e26dad1c08 -> 
+  custom:scripting/monoscript/fileName/CanvasScalerEditor.cs: 45d5b31aba10a8b7f96c6429c8d1cf15 -> 
+  custom:scripting/monoscript/fileName/WaypointProgressTracker.cs: 4258c6b0386daa037a45b680ab62a1e0 -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: fbcb717fad2034192c3ecbc696d6e019 -> 
+  custom:scripting/monoscript/fileName/HandHeldCam.cs: 39d3287cbb1e5c085859aee4b8cca7a8 -> 
+  custom:scripting/monoscript/fileName/AdManagerBannerClient.cs: 27ee537648609c4a25e6ae335847c755 -> 
+  custom:scripting/monoscript/fileName/PhysicsRaycasterEditor.cs: 110591b94d444b72f6a02c548bb7e869 -> 
+  custom:scripting/monoscript/fileName/PanelRaycaster.cs: 57c5b48d37b14bf434fbeb37894146ef -> 
+  custom:scripting/monoscript/fileName/RewardedInterstitialAdClient.cs: 0db3e73776e620512f26411a21ab0b30 -> 
+  custom:scripting/monoscript/fileName/VertexHelper.cs: d79122a4ca8eedf6798884cad51c94ef -> 
+  custom:scripting/monoscript/fileName/AdErrorClient.cs: 122d830b9b3139bad05b8ea0d66eaa15 -> 
+  custom:scripting/monoscript/fileName/InitializationStatus.cs: 9f61f7d146c186240c4227c8101cf33a -> 
+  custom:scripting/monoscript/fileName/Shadow.cs: 7884315ffc3a3b9bc418d86e8992798d -> 
+  custom:scripting/monoscript/fileName/AnimTag.cs: 39953714109c62efb11be29836693e8c -> 
+  custom:scripting/monoscript/fileName/ICustomNativeTemplateClient.cs: fe6f3cf87bb6f3a3498b9726a55ee3b3 -> 
+  custom:scripting/monoscript/fileName/EventTriggerEditor.cs: 6ea4cbbbbfa1cf486ec109d8109386ab -> 
+  custom:scripting/monoscript/fileName/BaseInputModule.cs: e5d51419cd83ddd14cfd2bfec49bced5 -> 
+  custom:scripting/monoscript/fileName/TouchInputModule.cs: f649e6d16e6a2b3e3d9ef2fc7f32a42a -> 
+  custom:scripting/monoscript/fileName/MediationExtras.cs: 93505023cf6cf2741ffb1f9c83c83a44 -> 
+  custom:scripting/monoscript/fileName/AdManagerAdRequest.cs: 56931cf01d4d31a872b2d2f4d6dfbed7 -> 
+  custom:scripting/monoscript/fileName/AdInspectorErrorClientEventArgs.cs: 9c21b5063c5846740aa8955a7215b13f -> 
+  custom:scripting/monoscript/fileName/AdError.cs: ab2ecacad16fa586b1ef2540929c90f3 -> 
+  custom:scripting/monoscript/fileName/FPSCounter.cs: 61325357dea45ada3313f117fe0f7127 -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 20b46bf5344ef281d9becc169327f3ed -> 
+  custom:scripting/monoscript/fileName/UmpClientFactory.cs: 41336bf067fed6b9cb6ed5d03fee50c0 -> 
+  custom:scripting/monoscript/fileName/OnConsentInfoUpdateFailureListener.cs: 11575417ba6fb2ae939c8d57a3aedeef -> 
+  custom:scripting/monoscript/fileName/IInitializationStatusClient.cs: 96ea53635e9013c0fd6cdb216f862ad2 -> 
+  custom:scripting/monoscript/fileName/MaskUtilities.cs: 1ac31d7c3f0aeeb6154c06c4f379fbda -> 
+  custom:scripting/monoscript/fileName/RooftopMenuController.cs: 43322e280374478ea5584febb118235f -> 
+  custom:scripting/monoscript/fileName/BaseEventData.cs: fe1c8385b48c0521893f28f747b6fc69 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ColorBlock.cs: 425ee059ac60082d71e36b92bc05c817 -> 
+  custom:scripting/monoscript/fileName/LerpControlledBob.cs: e1bf67f0a3095bf49332446dc0219443 -> 
+  custom:scripting/monoscript/fileName/StudentHealth.cs: 90b0840f784c28b9b0e2d2393dcb7260 -> 
+  custom:scripting/monoscript/fileName/NavigationDrawer.cs: d6f1c1b7e626587e232b7c29fd8317ca -> 
+  custom:scripting/monoscript/fileName/IAppStateEventClient.cs: b40b1edf5a39b1d493dfd0bd38c3d757 -> 
+  custom:scripting/monoscript/fileName/SpriteDrawUtility.cs: 63a19974af19378fa2ed74e2b9646e43 -> 
+  custom:scripting/monoscript/fileName/RaycasterManager.cs: 734ccc1eb36467642b0349d544b4126e -> 
+  custom:scripting/monoscript/fileName/PhysicsRaycaster.cs: 55704cfd308f55e8f2100e1978b8c859 -> 
+  custom:scripting/monoscript/fileName/IMobileAdsClient.cs: cae5a9ce75aa744cbb821967bd85b24f -> 
+  custom:scripting/monoscript/fileName/IAdErrorClient.cs: 8ceb92f4f97f54e668f610599c7ffbf4 -> 
+  custom:scripting/monoscript/fileName/ObjectResetter.cs: 4729f3c5ec4320f6d42859ed0a7e4fcc -> 
+  custom:scripting/monoscript/fileName/AppOpenAdClient.cs: 429a4d501d6ea8453430ccc6bb549eb6 -> 
+  custom:scripting/monoscript/fileName/AdFailedToLoadEventArgs.cs: a2af71380444df3cdbd20ffdda4cf51c -> 
+  custom:scripting/monoscript/fileName/GraphicRegistry.cs: 98589adfc9bed38aa1284f52d0906cff -> 
+  custom:scripting/monoscript/fileName/AnimationTriggers.cs: 71e2bc068282cb51ef0c9c07f7c83c0e -> 
+  custom:scripting/monoscript/fileName/TiltInput.cs: 005a4f12ebe0782535d5f88c408eacfe -> 
+  custom:scripting/monoscript/fileName/ContentSizeFitterEditor.cs: d3472f0757f80a46d91353f6d23b99b9 -> 
+  custom:scripting/monoscript/fileName/PlatformSpecificContent.cs: d80b16e46fa47259f162b60d4de03e39 -> 
+  custom:scripting/monoscript/fileName/RawImageEditor.cs: a27f397991c9e00c409e9e5f249ac4cf -> 
+  custom:scripting/monoscript/fileName/IMaterialModifier.cs: 22379bdba952e76eedc3495376a7f365 -> 
+  custom:scripting/monoscript/fileName/SliderEditor.cs: 311387dff33e7f968557acb6719ff318 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SelectableEditor.cs: 1481d527b8e3461180bdeab828e61e72 -> 
+  custom:scripting/monoscript/fileName/StandaloneInputModule.cs: bdd0257dc8587dc277481ed15f006d00 -> 
+  custom:scripting/monoscript/fileName/IAdManagerBannerClient.cs: c51a01065b8673794262da120b6a00fc -> 
+  custom:scripting/monoscript/fileName/SimpleMouseRotator.cs: dba573bcb546f175149e62ba814f5b72 -> 
+  custom:scripting/monoscript/fileName/IClientFactory.cs: f8128aa267a98f908226ec691f841d2d -> 
+  custom:scripting/monoscript/fileName/CrossPlatformInputManager.cs: 6de8af81d021eaf9393099950d116e92 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: 9afc567523072d385e7e839f14f42a40 -> 
+  custom:scripting/monoscript/fileName/ExecuteEvents.cs: 09bdf6afd188bdc384f065aac6293d3f -> 
+  custom:scripting/monoscript/fileName/CustomNativeTemplateAd.cs: f7a8e95bce211fc2f6406d2f60529de7 -> 
+  custom:scripting/monoscript/fileName/IAdManagerInterstitialClient.cs: e61f0c2b706f6fb3d4657fb78cf3a8b1 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 2124093b3f8a7fbb31af4584d7906f17 -> 
+  custom:scripting/monoscript/fileName/InterceptedEventsPreview.cs: 94e846ba0cdb752454d2d472cfe36d16 -> 
+  custom:scripting/monoscript/fileName/ProtectCameraFromWallClip.cs: 4c140574803b995cdf559398f585d40b -> 
+  custom:scripting/monoscript/fileName/MobileAds.cs: 3d200195932cca28ae62137384dc88bf -> 
+  custom:scripting/monoscript/fileName/MenuOptions.cs: d79d6d6d5841de7e6374a43e8dcef5a4 -> 
+  custom:scripting/monoscript/fileName/NativeTemplateTextStyle.cs: 92b236436ab9b3aee9a17dd3034d4874 -> 
+  custom:scripting/monoscript/fileName/UIBehaviour.cs: 93a5dfaee450605a3ebf5df8a3c39094 -> 
+  custom:scripting/monoscript/fileName/AppOpenAd.cs: b6f3ca9665261d54762d5989fecc2425 -> 
+  custom:scripting/monoscript/fileName/PositionAsUV1.cs: 2e4459b437a4807ec15690930098829a -> 
+  custom:scripting/monoscript/fileName/Dropdown.cs: e2499375dbab18b142e2db07a091d792 -> 
+  custom:scripting/monoscript/fileName/MobileAdsEventExecutor.cs: 75f26080375c03271d7c3db3ff7e4907 -> 
+  custom:scripting/monoscript/fileName/ConsentFormClient.cs: 1c28e52e939c24b17435f53b5da82b43 -> 
+  custom:scripting/monoscript/fileName/AutoMoveAndRotate.cs: cadb60ca81f0fa092bfbe6288b868ff7 -> 
+  custom:scripting/monoscript/fileName/IConsentInformationClient.cs: d7d52dfdd9723018454164bd1f2ddd43 -> 
+  custom:scripting/monoscript/fileName/SelfControllerEditor.cs: 7085c77278668b218f5204af2c8ef3a1 -> 
+  custom:scripting/monoscript/fileName/GameInfo.cs: b39d91844e6a6494652575297a10781f -> 
+  custom:scripting/monoscript/fileName/StudentAttackParts.cs: 7391486d6e1c015348e96415b4e3720b -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PointerInputModule.cs: c4d4fe7ccbecd5087b916bc87196dbe9 -> 
+  custom:scripting/monoscript/fileName/InitializationStatusClient.cs: 93e2abd95d18232317b62f024cb17a24 -> 
+  custom:scripting/monoscript/fileName/Graphic.cs: a06ccab3be7023340f550cfeaabbe07e -> 
+  custom:scripting/monoscript/fileName/RoboVoice.cs: e577fd32324cb912568f50737781a5c0 -> 
+  custom:scripting/monoscript/fileName/Mask.cs: 30def7c5b8ef23ce62910d8eb0c002c6 -> 
+  custom:scripting/monoscript/fileName/IDefaultInAppPurchaseProcessor.cs: b440b19e0e5a270424742416bbbd0e69 -> 
+  custom:scripting/monoscript/fileName/StudentAILeg.cs: af584b97fbca6a8fd97b5ce3635cc09e -> 
+  custom:scripting/monoscript/fileName/DropdownEditor.cs: 7835943c2b1e7ab14674862cb91ce165 -> 
+  custom:scripting/monoscript/fileName/AxisTouchButton.cs: a7aa800e764d8b80087fc24ac7f59d30 -> 
+  custom:scripting/monoscript/fileName/HorizontalOrVerticalLayoutGroupEditor.cs: b818b9a01e994214d99cc7440db09dec -> 
+  custom:scripting/monoscript/fileName/MultipleDisplayUtilities.cs: 4c3c70e26636165f46aedff2bed06aa3 -> 
+  custom:scripting/monoscript/fileName/LayoutElementEditor.cs: 7b7a8175ebabe6f0476df392a9d779f5 -> 
+  custom:scripting/monoscript/fileName/GraphicEditor.cs: 0dc931f0f060b1c1aa4b9934f3c02068 -> 
+  custom:scripting/monoscript/fileName/LayoutPropertiesPreview.cs: 464f6e736bc56387abed9e1345b58e03 -> 
+  custom:scripting/monoscript/fileName/DragRigidbody.cs: 4603c3af3f13916f3fa935f6c699052a -> 
+  custom:scripting/monoscript/fileName/CanvasScaler.cs: 2ea1923de8f9e015366994adf4a911f8 -> 
+  custom:scripting/monoscript/fileName/IRewardBasedVideoAdClient.cs: 52fe3776767f097f1bf32567a2909d91 -> 
+  custom:scripting/monoscript/fileName/INativeOverlayAdClient.cs: f976585485d33b5671e8cdfcceb486dc -> 
+  custom:scripting/monoscript/fileName/ButtonHandler.cs: bf99f15b4b4da7541cf1a3227d33dba4 -> 
+  custom:scripting/monoscript/fileName/DisplayMetrics.cs: 9dd6f39314eb22275532392bed9d5bd5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IRewardedAdClient.cs: 8e46a696cc2e194f30c5b09591f8a8d9 -> 
+  custom:scripting/monoscript/fileName/EventSystemChecker.cs: 8ff64b04718551a6bca2d6f2b6f6ea6e -> 
+  custom:scripting/monoscript/fileName/InputFieldEditor.cs: ae985d67ad35a24d695667fcf35d81ef -> 
+  custom:scripting/monoscript/fileName/IGraphicEnabledDisabled.cs: 543e967edd29d3f90a7fada795a69d63 -> 
+  custom:scripting/monoscript/fileName/IMask.cs: 4835b27d1d14549285b4f8c83612ebc7 -> 
+  custom:scripting/monoscript/fileName/INativeExpressAdClient.cs: 2f72b1fcc669606130103338830e2d3b -> 
+  custom:scripting/monoscript/fileName/RewardBasedVideoAdClient.cs: 8f22a136215db466bee837f1fecc8859 -> 
+  custom:scripting/monoscript/fileName/Selectable.cs: 355ffa2236bbfbbd4ecc059e599154f4 -> 
+  custom:scripting/monoscript/fileName/FontDataDrawer.cs: f7cbe293c2e3dff2ee39aff7bd4163b1 -> 
+  custom:scripting/monoscript/fileName/FontData.cs: 2624b2b5223fc7daa60b578156662561 -> 
+  custom:scripting/monoscript/fileName/TimedObjectDestructor.cs: 2b9ef5c24d8ac1876bcac32bfbb70091 -> 
+  custom:scripting/monoscript/fileName/IAdLoaderClient.cs: 97b31d34586e7af8e857d799976e4117 -> 
+  custom:scripting/monoscript/fileName/VerticalLayoutGroup.cs: d5cf2f2f23f5247db7d886894bac9b3f -> 
+  custom:scripting/monoscript/fileName/InterstitialAd.cs: 771b75c563b7c278825a029d8083cee3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/IRewardedInterstitialAdClient.cs: bb87a7c9e15ff948f68b3b7321f3c1ca -> 
+  custom:scripting/monoscript/fileName/TargetFieldOfView.cs: 51d23f9917ca2bff79136f2f326daaed -> 
+  custom:scripting/monoscript/fileName/IInterstitialClient.cs: 83607c52750641f5283d9d4590876d97 -> 
+  custom:scripting/monoscript/fileName/BGMController.cs: 8b121817cf318136f977e80329455398 -> 
+  custom:scripting/monoscript/fileName/RectMask2DEditor.cs: f121c7dbc11fd506db77fcd126dfa3fc -> 
+  custom:scripting/monoscript/fileName/MaskEditor.cs: 3bd6622b0f25c580774e523433166ef0 -> 
+  custom:scripting/monoscript/fileName/PanelEventHandler.cs: ba6769d051300e140797e22cf69b8ced -> 
+  custom:scripting/monoscript/fileName/GridLayoutGroupEditor.cs: e48ddca2b2d4210562ae141b312d8312 -> 
+  custom:scripting/monoscript/fileName/ILayoutElement.cs: a5941e42345b87779111dd71a1bb5868 -> 
+  custom:scripting/monoscript/fileName/FormError.cs: 2a5d2fade14a65976dfb99745c1a44fe -> 
+  custom:scripting/monoscript/fileName/BaseRaycaster.cs: e37362e329c8091c64b863e33af2335e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/OnConsentFormLoadFailureListener.cs: 5caa8b922b9d6a05b3d6e8ef925843f0 -> 
+  custom:scripting/monoscript/fileName/IApplicationPreferencesClient.cs: 5527eeb2f73bc8122fa646ef1b142f91 -> 
+  custom:scripting/monoscript/fileName/RequestConfigurationClient.cs: 2bb09ee5243e515d54b8462c3a5ea2cd -> 
+  custom:scripting/monoscript/fileName/CustomNativeEventArgs.cs: f666e5091b7f3e8b349100896254b062 -> 
+  custom:scripting/monoscript/fileName/AppEvent.cs: d76b9b8870f3359e1d5f0890c8a08810 -> 
+  custom:scripting/monoscript/fileName/LoadAdErrorClientEventArgs.cs: a7a2f8e5d0f7f8799d20ac3aacc25395 -> 
+  custom:scripting/monoscript/fileName/DummyClient.cs: eb95fd880d462fdae09cd043197f4dc0 -> 
+  custom:scripting/monoscript/fileName/ResponseInfoClient.cs: 934198fd4a6ecf834c51902355a3c65a -> 
+  custom:scripting/monoscript/fileName/LoadAdError.cs: 30d41f25b3a0c0388c5c87e35b8145d9 -> 
+  custom:scripting/monoscript/fileName/IBannerClient.cs: f9df540751f64c7c663093ee72af7105 -> 
+  custom:scripting/monoscript/fileName/VideoOptions.cs: d0d9e2b90a68b056df9157181a1e8c61 -> 
+  custom:scripting/monoscript/fileName/InterstitialClient.cs: 1275a62de10a458b691bcfaaf62488c4 -> 
+  custom:scripting/monoscript/fileName/IUmpClientFactory.cs: 24cc417b2a9a24385387ad5b9f5884bc -> 
+  custom:scripting/monoscript/fileName/StudentLeg.cs: f7c6f4072360ce727377b5b86b5cd091 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ServerSideVerificationOptions.cs: d49171325a764c5ee699d1734cee4940 -> 
+  custom:scripting/monoscript/fileName/NativeAdOptions.cs: 465f28402ada573d07281e42d512826d -> 
+  custom:scripting/monoscript/fileName/AdInspectorListener.cs: 80f743e3a68d54a9880d32f1700f0c57 -> 
+  custom:scripting/monoscript/fileName/FontUpdateTracker.cs: 0edf4184b1e65a637688bed2aad2858e -> 
+  custom:scripting/monoscript/fileName/ConsentRequestParameters.cs: e2452f27b5c8c46f80c21ab4b82dea03 -> 
+  custom:scripting/monoscript/fileName/EventTrigger.cs: 302ed930e5ba0917aa82911027f67670 -> 
+  custom:scripting/monoscript/fileName/AdSize.cs: 60014b77b8394b1b47b636d38ddb07e8 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Localizer.cs: 3c969bcbc00bddba4909b5a691e5a5b6 -> 
+  custom:scripting/monoscript/fileName/ReflectionMethodsCache.cs: c5cb035abcaae76940caca8d15cf29e4 -> 
+  custom:scripting/monoscript/fileName/IAppOpenAdClient.cs: 0d0afc34f74c0dc48ebdfdfa7eb41f4c -> 
+  custom:scripting/monoscript/fileName/AnimationTriggersDrawer.cs: a95af93c1a59bab8729323baee4360e5 -> 
+  custom:scripting/monoscript/fileName/RewardedAdClient.cs: 82c368285d18c8c06a328b87c3a1130b -> 
+  custom:scripting/monoscript/fileName/LookatTarget.cs: 24990fd6a1942dd499cec63d308f9c02 -> 
+  custom:scripting/monoscript/fileName/OnConsentFormLoadSuccessListener.cs: eb2356ebf7b8fbce21b27007fcfc2fdb -> 
+  custom:scripting/monoscript/fileName/AdLoaderClient.cs: 25e8a11a1b7948177c43756bf41a1444 -> 
+  custom:scripting/monoscript/fileName/ScrollbarEditor.cs: b44327427537937c6a57f8543906e016 -> 
+  custom:scripting/monoscript/fileName/MobileControlRig.cs: edcf953c7c7f28c0e7c76ed3794b771a -> 
+  custom:scripting/monoscript/fileName/EventInterfaces.cs: 207de7b71ff167cef7ae4584652d1556 -> 
+  custom:scripting/monoscript/fileName/GridLayoutGroup.cs: 43759e18a5ea1dda932d71b40c61dda6 -> 
+  custom:scripting/monoscript/fileName/GraphicRaycaster.cs: 0fc8c9d6ff17669221a0b586bde06477 -> 
+  custom:scripting/monoscript/fileName/CanvasUpdateRegistry.cs: bdf5b5b4904888a4c7ec20bc9ff4f0a2 -> 
+  custom:scripting/monoscript/fileName/ICustomInAppPurchaseProcessor.cs: f838330b3221c6a6923f626d7493da8e -> 
+  custom:scripting/monoscript/fileName/ICustomInAppPurchase.cs: 22f662ccc67246622bc7515778898d41 -> 
+  custom:scripting/monoscript/fileName/Scrollbar.cs: 042fdb4d377c0d68cf1021e2ead3c650 -> 
+  custom:scripting/monoscript/fileName/EventSystemEditor.cs: 76f2d1177650edec9abc8c01fb91473a -> 
+  custom:scripting/monoscript/fileName/LayoutElement.cs: 0ad083ca76b6eceec2f3e5e824de2611 -> 
+  custom:scripting/monoscript/fileName/LayoutGroup.cs: 47296f37423e45582ae2a1285f1834e1 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 136.837675 seconds.
+  path: Assets/Font/rounded-mplus-1p-bold.ttf
+  artifactKey: Guid(e690022209624ba43a76a8875f145b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/rounded-mplus-1p-bold.ttf using Guid(e690022209624ba43a76a8875f145b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fc317880f3c96149bbdcae87386298f1') in 0.135043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.247 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.358 seconds
+Domain Reload Profiling: 605ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (14ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (358ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.8 KB). Loaded Objects now: 855.
+Memory consumption went from 60.8 MB to 60.8 MB.
+Total: 2.319100 ms (FindLiveObjects: 0.105700 ms CreateObjectMapping: 0.014000 ms MarkObjects: 2.178700 ms  DeleteObjects: 0.019500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Button.cs: 18874d3cd8f6e3668320e6beabdb6cbc -> 
+  custom:scripting/monoscript/fileName/LayoutUtility.cs: 5aad751cb79650d7f92ebd417a09943c -> 
+  custom:scripting/monoscript/fileName/ActivateTrigger.cs: c17dbf6ebd3571655102669753f97191 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LayoutRebuilder.cs: 361ab5c1dfc0dd155ae206d28605f701 -> 
+  custom:scripting/monoscript/fileName/AppStateEventClient.cs: 078b01f459214187a7fb38e764695fca -> 
+  custom:scripting/monoscript/fileName/IResponseInfoClient.cs: b07ef8eb11fb35adc8612e7933f05df6 -> 
+  custom:scripting/monoscript/fileName/FOVKick.cs: d136c86792778333cf463e29c8f7ade6 -> 
+  custom:scripting/monoscript/fileName/Clipping.cs: 5c87c7b6bd30043817e201557e09a654 -> 
+  custom:scripting/monoscript/fileName/StandaloneInput.cs: 88b73dc74cc44043423a370601c3162d -> 
+  custom:scripting/monoscript/fileName/TimedObjectActivator.cs: 84d59b656049724ff4d137b83abcc377 -> 
+  custom:scripting/monoscript/fileName/Student.cs: f4b94843976b80fa810352a116f24d3f -> 
+  custom:scripting/monoscript/fileName/MonoPInvokeCallbackAttribute.cs: f1ad341d16cc3cf8b4549cd0af0e7249 -> 
+  custom:scripting/monoscript/fileName/ColorBlockDrawer.cs: 5ce7ef2ba701206222b82e777add9575 -> 
+  custom:scripting/monoscript/fileName/VirtualInput.cs: dc5775c312c5ecb7052c36f3d3ca27fc -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 11af4b90318823aa68a285f0f2d513aa -> 
+  custom:scripting/monoscript/fileName/GoogleMobileAdsClientFactory.cs: 2e7a6a0015a7f8e1c60d2def195ecb70 -> 
+  custom:scripting/monoscript/fileName/IConsentFormClient.cs: 28e42f5e74830cb0c22fa0d7fceb7bc2 -> 
+  custom:scripting/monoscript/fileName/BaseMeshEffect.cs: d6e560340e123aa95f6f5a8a2fcdf11f -> 
+  custom:scripting/monoscript/fileName/ApplicationPreferencesClient.cs: cf8195453e8c0fb5e0e50645ae2f14ab -> 
+  custom:scripting/monoscript/fileName/DropdownOptionListDrawer.cs: 2b2ea9c97f9351f45324b7dd26de9002 -> 
+  custom:scripting/monoscript/fileName/DefaultControls.cs: 553a49af5274967d9937dc08d9e54483 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/IndexedSet.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/FollowTarget.cs: b1a6ed13124065658ba5d24dfcda5053 -> 
+  custom:scripting/monoscript/fileName/FootSound.cs: 50acff23196b5b9a305bd54d98bf2e42 -> 
+  custom:scripting/monoscript/fileName/IMaskable.cs: 7d1a33632a371b7839c89496b37570f7 -> 
+  custom:scripting/monoscript/fileName/SetPropertyUtility.cs: f604b4b9e6b0979bdfc1e2b40426dd19 -> 
+  custom:scripting/monoscript/fileName/RewardBasedVideoAd.cs: eb427df501d3a4781d5ec15e0b22ebee -> 
+  custom:scripting/monoscript/fileName/MobileAdsClient.cs: 9120e83b300826d7640b3ae52019e9fc -> 
+  custom:scripting/monoscript/fileName/ScrollRect.cs: ad946dcd0c52e084febb1a202c6365b7 -> 
+  custom:scripting/monoscript/fileName/NativeExpressAdView.cs: 9cf20bca926ef50363747bd88996f50b -> 
+  custom:scripting/monoscript/fileName/ImageEditor.cs: 445a540a125ce6a604545e302da59d0d -> 
+  custom:scripting/monoscript/fileName/DefaultInAppPurchaseListener.cs: 01e7c5331e00c52850b51fd7e12db465 -> 
+  custom:scripting/monoscript/fileName/IClipRegion.cs: 7f6cd92e6d4df0295c24c7c4ddc064ba -> 
+  custom:scripting/monoscript/fileName/MaxAdContentRating.cs: eeb4897f322a59661e003214aa652d29 -> 
+  custom:scripting/monoscript/fileName/RectangularVertexClipper.cs: b6da5fc33d733831211174eb77db8240 -> 
+  custom:scripting/monoscript/fileName/CanvasController.cs: 6790d50a096deebd4a1713acf607b3ac -> 
+  custom:scripting/monoscript/fileName/SimpleJoystick.cs: 3418f56a832cf88800cd3ff9c9a66a7f -> 
+  custom:scripting/monoscript/fileName/EventSystem.cs: 9893ce071eb20d5c73342946ea902daa -> 
+  custom:scripting/monoscript/fileName/SoundController.cs: 336a9494f46a59e4c974300a82291fb6 -> 
+  custom:scripting/monoscript/fileName/AspectRatioFitterEditor.cs: ca909eaa36fb5ef0289fe980de644381 -> 
+  custom:scripting/monoscript/fileName/DynamicShadowSettings.cs: 4d386fbb6170c62321b4d131fcbbb95b -> 
+  custom:scripting/monoscript/fileName/AlertViewController.cs: 28c2b9d996b2fca238a155b00193395e -> 
+  custom:scripting/monoscript/fileName/AdRequest.cs: 03bfc106a35603f007cf4857ecc2a5ad -> 
+  custom:scripting/monoscript/fileName/ContentSizeFitter.cs: e2715cebc3fc71ede47fde6d9e9995cc -> 
+  custom:scripting/monoscript/fileName/AdErrorClientEventArgs.cs: 6ed6fd2f468fde116093c45fc6096ded -> 
+  custom:scripting/monoscript/fileName/ScrollRectEditor.cs: 3c0730e578aa8d8fd5bfc2f3205e2ba0 -> 
+  custom:scripting/monoscript/fileName/SceneController.cs: 3ef5623db2458cc6fd817fc6271b7e41 -> 
+  custom:scripting/monoscript/fileName/HorizontalLayoutGroup.cs: 8a5b3f08374a0e6bc0ae61c7820d3dc9 -> 
+  custom:scripting/monoscript/fileName/Reward.cs: 3f629f33d3a6520340b463bdd78d7fb8 -> 
+  custom:scripting/monoscript/fileName/ToggleEditor.cs: bd84b18f689a3b85ecdf512fffc714e6 -> 
+  custom:scripting/monoscript/fileName/AdapterResponseInfoClient.cs: ab4bee057d3a5b74d59ffc402c1079f2 -> 
+  custom:scripting/monoscript/fileName/IAdapterResponseInfoClient.cs: 3a8e0559a8293d06d74b44859331132f -> 
+  custom:scripting/monoscript/fileName/MaskableGraphic.cs: aad20bbffec73c4b301a1ae8e335759b -> 
+  custom:scripting/monoscript/fileName/Text.cs: f3cd2527cc0cf233b21b58a0a7d6ebc9 -> 
+  custom:scripting/monoscript/fileName/NativeTemplateStyle.cs: c0bb5532380999dcd3a1c50d43379d0e -> 
+  custom:scripting/monoscript/fileName/TextEditor.cs: 0795927915f8ee9dc27f674f60e96764 -> 
+  custom:scripting/monoscript/fileName/ClipperRegistry.cs: 8e6c24182f27f55fb4de3b4cdfe95c6c -> 
+  custom:scripting/monoscript/fileName/InAppPurchaseResult.cs: 53bfbbb8695f288ab7ddcee762772ab3 -> 
+  custom:scripting/monoscript/fileName/StudentAttackZone.cs: 4b39060cf23490a3713936f61fb2db0e -> 
+  custom:scripting/monoscript/fileName/RectMask2D.cs: 4d0473b9b97e6b8149c43fe7277f2c32 -> 
+  custom:scripting/monoscript/fileName/SpriteState.cs: 57b3309510f8493daf4f3019efe64711 -> 
+  custom:scripting/monoscript/fileName/SpawnCloud.cs: 021229583528cf7372de26e8196988f5 -> 
+  custom:scripting/monoscript/fileName/GameController.cs: b39d91587c2553fd886ac9cec92f1e80 -> 
+  custom:scripting/monoscript/fileName/SpriteStateDrawer.cs: 5df3134a6f23a9419d53d42b06555043 -> 
+  custom:scripting/monoscript/fileName/AdValue.cs: 508aaf0b8b85952f1e81d81cc820e53d -> 
+  custom:scripting/monoscript/fileName/CurveControlledBob.cs: fd3c34ca61c0dfb6328f54c1782436be -> 
+  custom:scripting/monoscript/fileName/AutoMobileShaderSwitch.cs: dbc4b61687edf370102702d571f8ec2b -> 
+  custom:scripting/monoscript/fileName/PrefabLayoutRebuilder.cs: a5c4903b52cf08d0d76a12531586d566 -> 
+  custom:scripting/monoscript/fileName/IMeshModifier.cs: d34ea46c6ec982082dceca7968209d0b -> 
+  custom:scripting/monoscript/fileName/InputField.cs: 50f5a4450f02a1646ac6ec7a42f31f75 -> 
+  custom:scripting/monoscript/fileName/StudentUserControl.cs: b341ff2254984eb6ce2ed0ebb0943c0e -> 
+  custom:scripting/monoscript/fileName/Slider.cs: fa9653030ac65718025b6955291e99ef -> 
+  custom:scripting/monoscript/fileName/PointerEventData.cs: 3c7a8b2c3ff2e04116c5ea92277d670a -> 
+  custom:scripting/monoscript/fileName/OnConsentInfoUpdateSuccessListener.cs: daed7b559eefe2d44aa76b312616e126 -> 
+  custom:scripting/monoscript/fileName/AutoCam.cs: ae81c0234c6aa2e342909cd6ad8531f9 -> 
+  custom:scripting/monoscript/fileName/MobileInput.cs: 916a9248ab1eb3f0d791859f028e70d8 -> 
+  custom:scripting/monoscript/fileName/Toggle.cs: fc59b554e8aca13c5f78dc9bb5f2dcbb -> 
+  custom:scripting/monoscript/fileName/OnConsentFormDismissedListener.cs: 8f0e86a5438db026c3c03a9fb71c0c85 -> 
+  custom:scripting/monoscript/fileName/RaycastResult.cs: 3da05e5f8945f9e35dd9f158a0fc91b7 -> 
+  custom:scripting/monoscript/fileName/ButtonEditor.cs: 5ac506fb7c7a0164c335183377af7ab2 -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.UI: 6bae215471362000d6dbd3e0ee304a50 -> 
+  custom:scripting/monoscript/fileName/ConsentDebugSettings.cs: 11bada09d4c74bd4a7edc87b39603aae -> 
+  custom:scripting/monoscript/fileName/Physics2DRaycaster.cs: 532e9bb49f140fabac2c7047d6401ab9 -> 
+  custom:scripting/monoscript/fileName/IAdInspectorErrorClient.cs: b7e439c199787de995689b4243f44d3d -> 
+  custom:scripting/monoscript/fileName/ILoadAdErrorClient.cs: 69592947daa50c3400ccf573ab627ed6 -> 
+  custom:scripting/monoscript/fileName/StencilMaterial.cs: c69bffbf7b7d04b1aed525ae7043b52a -> 
+  custom:scripting/monoscript/fileName/Navigation.cs: e35012b3e8f0b9a62e22595c530c4b09 -> 
+  custom:scripting/monoscript/fileName/ToggleGroup.cs: 861cd52fff6f1d7a73f5457b3b97dda8 -> 
+  custom:scripting/monoscript/fileName/Outline.cs: abe7a3b85236fa2aa6a727443644081c -> 
+  custom:scripting/monoscript/fileName/RawImage.cs: 9b1f9ced27d17db391e342a1964f4b65 -> 
+  custom:scripting/monoscript/fileName/AxisEventData.cs: bd68a02a31e92e066ceec31b011fbc57 -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.UI: 7ac2e4ab0e1385bc66dd6dd258282fe3 -> 
+  custom:scripting/monoscript/fileName/MenuController.cs: f98156acb6c9b62b4aff1540a104a198 -> 
+  custom:scripting/monoscript/fileName/ConsentInformationClient.cs: d3174b6c5ff8ef42ce2529819fcd0b5c -> 
+  custom:scripting/monoscript/fileName/Physics2DRaycasterEditor.cs: 9e7f63ac2881662ae3bbd50a4338aa2a -> 
+  custom:scripting/monoscript/fileName/FinishAnim.cs: cf865f8a05aacf96239bc681aa38dbd5 -> 
+  custom:scripting/monoscript/fileName/NativeExpressAdClient.cs: 2a5c17f00844a4cd6734bdc8e2b16db0 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdapterStatus.cs: 487500d48849153a5de2d5ec91fc79c6 -> 
+  custom:scripting/monoscript/fileName/AdLoader.cs: 6427d799a3b6e9742afd683a9715880b -> 
+  custom:scripting/monoscript/fileName/NativeOverlayAdClient.cs: 86fdbc8f4b594f477a13ea060d537cd1 -> 
+  custom:scripting/monoscript/fileName/Misc.cs: 7ed2e50827551a4e78c69f183dffa2c9 -> 
+  custom:scripting/monoscript/fileName/IInAppPurchaseResult.cs: feafa53c0b3d3f1f8a0ce252cb357387 -> 
+  custom:scripting/monoscript/fileName/LoadAdErrorClient.cs: 3e7386a16291c8f12a84332114c8cd50 -> 
+  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: 6409c10c17b027813bf616cbbd82342d -> 
+  custom:scripting/monoscript/fileName/CameraRefocus.cs: ad0ece5675b71eb36894f0c255f332e4 -> 
+  custom:scripting/monoscript/fileName/HorizontalOrVerticalLayoutGroup.cs: eac4934c775299d8b76ff59142d92fe4 -> 
+  custom:scripting/monoscript/fileName/InputAxisScrollbar.cs: ac9f721155332e2772dc111905c4d583 -> 
+  custom:scripting/monoscript/fileName/CustomInAppPurchase.cs: 2e8598b283a0f5ba356559cc61845db2 -> 
+  custom:scripting/monoscript/fileName/CoroutineTween.cs: 145a57fb4b19fcfb123b1dcc9c6ec846 -> 
+  custom:scripting/monoscript/fileName/Image.cs: dab426e5f5622a0f37965b80d0c94886 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WaypointCircuit.cs: 06398e30b670de3f47607b45ceb108cf -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: f66f5add0fcf4501d08694778f1effdc -> 
+  custom:scripting/monoscript/fileName/BannerView.cs: 0e7cd1d39581ddd87ee7e2aa01d5fdfa -> 
+  custom:scripting/monoscript/fileName/CustomNativeTemplateClient.cs: 6036f2706a04721b096f4976fba102cf -> 
+  custom:scripting/monoscript/fileName/ParticleSystemDestroyer.cs: 4a3ccd840619c24dbe6ed070600d5d9e -> 
+  custom:scripting/monoscript/fileName/AdManagerInterstitialClient.cs: 5d73eaceee5460f581cdb2aa3a724be0 -> 
+  custom:scripting/monoscript/fileName/CustomInAppPurchaseListener.cs: 3b251460dae02703e16e364d1f09d7ec -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7b928d865ff79aea8964256bf759dea6 -> 
+  custom:scripting/monoscript/fileName/AspectRatioFitter.cs: d0d41744e6957c53bac0c4dfa076cfbe -> 
+  custom:scripting/monoscript/fileName/RoboSafeArea.cs: f4e17af8d804b0bc3cdbde6ac0920c09 -> 
+  custom:scripting/monoscript/fileName/StudentAI.cs: 048b2b9cd5f1d727bee395a6aaeb0afa -> 
+  custom:scripting/monoscript/fileName/RoboLoading.cs: da52830bf708ef5e9ff4607884eda5ab -> 
+  custom:scripting/monoscript/fileName/SmoothFollow.cs: 6827ffa1ee9ce151924316a12a17fd6f -> 
+  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: 569fe548a68bbe05737c846b6136fd7c -> 
+  custom:scripting/monoscript/fileName/RequestConfiguration.cs: cb544a5f4369092f2f1a9d53405d0c94 -> 
+  custom:scripting/monoscript/fileName/BannerClient.cs: 5ec77b5ab5694d89e38dc6ef83bcba42 -> 
+  custom:scripting/monoscript/fileName/AdInspectorErrorClient.cs: 998094dc08106808a87547c910a74937 -> 
+  custom:scripting/monoscript/fileName/GraphicRebuildTracker.cs: 8de94ef43240abdb34f228fee6977ffb -> 
+  custom:scripting/monoscript/fileName/AppStateEventNotifier.cs: 1fb27395dd225f404e4c0ba29dd70eb7 -> 
+  custom:scripting/monoscript/fileName/TouchPad.cs: 6807f02d81a6bfd6af95f1e26dad1c08 -> 
+  custom:scripting/monoscript/fileName/CanvasScalerEditor.cs: 45d5b31aba10a8b7f96c6429c8d1cf15 -> 
+  custom:scripting/monoscript/fileName/WaypointProgressTracker.cs: 4258c6b0386daa037a45b680ab62a1e0 -> 
+  custom:scripting/monoscript/fileName/FreeLookCam.cs: fbcb717fad2034192c3ecbc696d6e019 -> 
+  custom:scripting/monoscript/fileName/HandHeldCam.cs: 39d3287cbb1e5c085859aee4b8cca7a8 -> 
+  custom:scripting/monoscript/fileName/AdManagerBannerClient.cs: 27ee537648609c4a25e6ae335847c755 -> 
+  custom:scripting/monoscript/fileName/PhysicsRaycasterEditor.cs: 110591b94d444b72f6a02c548bb7e869 -> 
+  custom:scripting/monoscript/fileName/PanelRaycaster.cs: 57c5b48d37b14bf434fbeb37894146ef -> 
+  custom:scripting/monoscript/fileName/RewardedInterstitialAdClient.cs: 0db3e73776e620512f26411a21ab0b30 -> 
+  custom:scripting/monoscript/fileName/VertexHelper.cs: d79122a4ca8eedf6798884cad51c94ef -> 
+  custom:scripting/monoscript/fileName/AdErrorClient.cs: 122d830b9b3139bad05b8ea0d66eaa15 -> 
+  custom:scripting/monoscript/fileName/InitializationStatus.cs: 9f61f7d146c186240c4227c8101cf33a -> 
+  custom:scripting/monoscript/fileName/Shadow.cs: 7884315ffc3a3b9bc418d86e8992798d -> 
+  custom:scripting/monoscript/fileName/AnimTag.cs: 39953714109c62efb11be29836693e8c -> 
+  custom:scripting/monoscript/fileName/ICustomNativeTemplateClient.cs: fe6f3cf87bb6f3a3498b9726a55ee3b3 -> 
+  custom:scripting/monoscript/fileName/EventTriggerEditor.cs: 6ea4cbbbbfa1cf486ec109d8109386ab -> 
+  custom:scripting/monoscript/fileName/BaseInputModule.cs: e5d51419cd83ddd14cfd2bfec49bced5 -> 
+  custom:scripting/monoscript/fileName/TouchInputModule.cs: f649e6d16e6a2b3e3d9ef2fc7f32a42a -> 
+  custom:scripting/monoscript/fileName/MediationExtras.cs: 93505023cf6cf2741ffb1f9c83c83a44 -> 
+  custom:scripting/monoscript/fileName/AdManagerAdRequest.cs: 56931cf01d4d31a872b2d2f4d6dfbed7 -> 
+  custom:scripting/monoscript/fileName/AdInspectorErrorClientEventArgs.cs: 9c21b5063c5846740aa8955a7215b13f -> 
+  custom:scripting/monoscript/fileName/AdError.cs: ab2ecacad16fa586b1ef2540929c90f3 -> 
+  custom:scripting/monoscript/fileName/FPSCounter.cs: 61325357dea45ada3313f117fe0f7127 -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 20b46bf5344ef281d9becc169327f3ed -> 
+  custom:scripting/monoscript/fileName/UmpClientFactory.cs: 41336bf067fed6b9cb6ed5d03fee50c0 -> 
+  custom:scripting/monoscript/fileName/OnConsentInfoUpdateFailureListener.cs: 11575417ba6fb2ae939c8d57a3aedeef -> 
+  custom:scripting/monoscript/fileName/IInitializationStatusClient.cs: 96ea53635e9013c0fd6cdb216f862ad2 -> 
+  custom:scripting/monoscript/fileName/MaskUtilities.cs: 1ac31d7c3f0aeeb6154c06c4f379fbda -> 
+  custom:scripting/monoscript/fileName/RooftopMenuController.cs: 43322e280374478ea5584febb118235f -> 
+  custom:scripting/monoscript/fileName/BaseEventData.cs: fe1c8385b48c0521893f28f747b6fc69 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ColorBlock.cs: 425ee059ac60082d71e36b92bc05c817 -> 
+  custom:scripting/monoscript/fileName/LerpControlledBob.cs: e1bf67f0a3095bf49332446dc0219443 -> 
+  custom:scripting/monoscript/fileName/StudentHealth.cs: 90b0840f784c28b9b0e2d2393dcb7260 -> 
+  custom:scripting/monoscript/fileName/NavigationDrawer.cs: d6f1c1b7e626587e232b7c29fd8317ca -> 
+  custom:scripting/monoscript/fileName/IAppStateEventClient.cs: b40b1edf5a39b1d493dfd0bd38c3d757 -> 
+  custom:scripting/monoscript/fileName/SpriteDrawUtility.cs: 63a19974af19378fa2ed74e2b9646e43 -> 
+  custom:scripting/monoscript/fileName/RaycasterManager.cs: 734ccc1eb36467642b0349d544b4126e -> 
+  custom:scripting/monoscript/fileName/PhysicsRaycaster.cs: 55704cfd308f55e8f2100e1978b8c859 -> 
+  custom:scripting/monoscript/fileName/IMobileAdsClient.cs: cae5a9ce75aa744cbb821967bd85b24f -> 
+  custom:scripting/monoscript/fileName/IAdErrorClient.cs: 8ceb92f4f97f54e668f610599c7ffbf4 -> 
+  custom:scripting/monoscript/fileName/ObjectResetter.cs: 4729f3c5ec4320f6d42859ed0a7e4fcc -> 
+  custom:scripting/monoscript/fileName/AppOpenAdClient.cs: 429a4d501d6ea8453430ccc6bb549eb6 -> 
+  custom:scripting/monoscript/fileName/AdFailedToLoadEventArgs.cs: a2af71380444df3cdbd20ffdda4cf51c -> 
+  custom:scripting/monoscript/fileName/GraphicRegistry.cs: 98589adfc9bed38aa1284f52d0906cff -> 
+  custom:scripting/monoscript/fileName/AnimationTriggers.cs: 71e2bc068282cb51ef0c9c07f7c83c0e -> 
+  custom:scripting/monoscript/fileName/TiltInput.cs: 005a4f12ebe0782535d5f88c408eacfe -> 
+  custom:scripting/monoscript/fileName/ContentSizeFitterEditor.cs: d3472f0757f80a46d91353f6d23b99b9 -> 
+  custom:scripting/monoscript/fileName/PlatformSpecificContent.cs: d80b16e46fa47259f162b60d4de03e39 -> 
+  custom:scripting/monoscript/fileName/RawImageEditor.cs: a27f397991c9e00c409e9e5f249ac4cf -> 
+  custom:scripting/monoscript/fileName/IMaterialModifier.cs: 22379bdba952e76eedc3495376a7f365 -> 
+  custom:scripting/monoscript/fileName/SliderEditor.cs: 311387dff33e7f968557acb6719ff318 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SelectableEditor.cs: 1481d527b8e3461180bdeab828e61e72 -> 
+  custom:scripting/monoscript/fileName/StandaloneInputModule.cs: bdd0257dc8587dc277481ed15f006d00 -> 
+  custom:scripting/monoscript/fileName/IAdManagerBannerClient.cs: c51a01065b8673794262da120b6a00fc -> 
+  custom:scripting/monoscript/fileName/SimpleMouseRotator.cs: dba573bcb546f175149e62ba814f5b72 -> 
+  custom:scripting/monoscript/fileName/IClientFactory.cs: f8128aa267a98f908226ec691f841d2d -> 
+  custom:scripting/monoscript/fileName/CrossPlatformInputManager.cs: 6de8af81d021eaf9393099950d116e92 -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: 9afc567523072d385e7e839f14f42a40 -> 
+  custom:scripting/monoscript/fileName/ExecuteEvents.cs: 09bdf6afd188bdc384f065aac6293d3f -> 
+  custom:scripting/monoscript/fileName/CustomNativeTemplateAd.cs: f7a8e95bce211fc2f6406d2f60529de7 -> 
+  custom:scripting/monoscript/fileName/IAdManagerInterstitialClient.cs: e61f0c2b706f6fb3d4657fb78cf3a8b1 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 2124093b3f8a7fbb31af4584d7906f17 -> 
+  custom:scripting/monoscript/fileName/InterceptedEventsPreview.cs: 94e846ba0cdb752454d2d472cfe36d16 -> 
+  custom:scripting/monoscript/fileName/ProtectCameraFromWallClip.cs: 4c140574803b995cdf559398f585d40b -> 
+  custom:scripting/monoscript/fileName/MobileAds.cs: 3d200195932cca28ae62137384dc88bf -> 
+  custom:scripting/monoscript/fileName/MenuOptions.cs: d79d6d6d5841de7e6374a43e8dcef5a4 -> 
+  custom:scripting/monoscript/fileName/NativeTemplateTextStyle.cs: 92b236436ab9b3aee9a17dd3034d4874 -> 
+  custom:scripting/monoscript/fileName/UIBehaviour.cs: 93a5dfaee450605a3ebf5df8a3c39094 -> 
+  custom:scripting/monoscript/fileName/AppOpenAd.cs: b6f3ca9665261d54762d5989fecc2425 -> 
+  custom:scripting/monoscript/fileName/PositionAsUV1.cs: 2e4459b437a4807ec15690930098829a -> 
+  custom:scripting/monoscript/fileName/Dropdown.cs: e2499375dbab18b142e2db07a091d792 -> 
+  custom:scripting/monoscript/fileName/MobileAdsEventExecutor.cs: 75f26080375c03271d7c3db3ff7e4907 -> 
+  custom:scripting/monoscript/fileName/ConsentFormClient.cs: 1c28e52e939c24b17435f53b5da82b43 -> 
+  custom:scripting/monoscript/fileName/AutoMoveAndRotate.cs: cadb60ca81f0fa092bfbe6288b868ff7 -> 
+  custom:scripting/monoscript/fileName/IConsentInformationClient.cs: d7d52dfdd9723018454164bd1f2ddd43 -> 
+  custom:scripting/monoscript/fileName/SelfControllerEditor.cs: 7085c77278668b218f5204af2c8ef3a1 -> 
+  custom:scripting/monoscript/fileName/GameInfo.cs: b39d91844e6a6494652575297a10781f -> 
+  custom:scripting/monoscript/fileName/StudentAttackParts.cs: 7391486d6e1c015348e96415b4e3720b -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PointerInputModule.cs: c4d4fe7ccbecd5087b916bc87196dbe9 -> 
+  custom:scripting/monoscript/fileName/InitializationStatusClient.cs: 93e2abd95d18232317b62f024cb17a24 -> 
+  custom:scripting/monoscript/fileName/Graphic.cs: a06ccab3be7023340f550cfeaabbe07e -> 
+  custom:scripting/monoscript/fileName/RoboVoice.cs: e577fd32324cb912568f50737781a5c0 -> 
+  custom:scripting/monoscript/fileName/Mask.cs: 30def7c5b8ef23ce62910d8eb0c002c6 -> 
+  custom:scripting/monoscript/fileName/IDefaultInAppPurchaseProcessor.cs: b440b19e0e5a270424742416bbbd0e69 -> 
+  custom:scripting/monoscript/fileName/StudentAILeg.cs: af584b97fbca6a8fd97b5ce3635cc09e -> 
+  custom:scripting/monoscript/fileName/DropdownEditor.cs: 7835943c2b1e7ab14674862cb91ce165 -> 
+  custom:scripting/monoscript/fileName/AxisTouchButton.cs: a7aa800e764d8b80087fc24ac7f59d30 -> 
+  custom:scripting/monoscript/fileName/HorizontalOrVerticalLayoutGroupEditor.cs: b818b9a01e994214d99cc7440db09dec -> 
+  custom:scripting/monoscript/fileName/MultipleDisplayUtilities.cs: 4c3c70e26636165f46aedff2bed06aa3 -> 
+  custom:scripting/monoscript/fileName/LayoutElementEditor.cs: 7b7a8175ebabe6f0476df392a9d779f5 -> 
+  custom:scripting/monoscript/fileName/GraphicEditor.cs: 0dc931f0f060b1c1aa4b9934f3c02068 -> 
+  custom:scripting/monoscript/fileName/LayoutPropertiesPreview.cs: 464f6e736bc56387abed9e1345b58e03 -> 
+  custom:scripting/monoscript/fileName/DragRigidbody.cs: 4603c3af3f13916f3fa935f6c699052a -> 
+  custom:scripting/monoscript/fileName/CanvasScaler.cs: 2ea1923de8f9e015366994adf4a911f8 -> 
+  custom:scripting/monoscript/fileName/IRewardBasedVideoAdClient.cs: 52fe3776767f097f1bf32567a2909d91 -> 
+  custom:scripting/monoscript/fileName/INativeOverlayAdClient.cs: f976585485d33b5671e8cdfcceb486dc -> 
+  custom:scripting/monoscript/fileName/ButtonHandler.cs: bf99f15b4b4da7541cf1a3227d33dba4 -> 
+  custom:scripting/monoscript/fileName/DisplayMetrics.cs: 9dd6f39314eb22275532392bed9d5bd5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IRewardedAdClient.cs: 8e46a696cc2e194f30c5b09591f8a8d9 -> 
+  custom:scripting/monoscript/fileName/EventSystemChecker.cs: 8ff64b04718551a6bca2d6f2b6f6ea6e -> 
+  custom:scripting/monoscript/fileName/InputFieldEditor.cs: ae985d67ad35a24d695667fcf35d81ef -> 
+  custom:scripting/monoscript/fileName/IGraphicEnabledDisabled.cs: 543e967edd29d3f90a7fada795a69d63 -> 
+  custom:scripting/monoscript/fileName/IMask.cs: 4835b27d1d14549285b4f8c83612ebc7 -> 
+  custom:scripting/monoscript/fileName/INativeExpressAdClient.cs: 2f72b1fcc669606130103338830e2d3b -> 
+  custom:scripting/monoscript/fileName/RewardBasedVideoAdClient.cs: 8f22a136215db466bee837f1fecc8859 -> 
+  custom:scripting/monoscript/fileName/Selectable.cs: 355ffa2236bbfbbd4ecc059e599154f4 -> 
+  custom:scripting/monoscript/fileName/FontDataDrawer.cs: f7cbe293c2e3dff2ee39aff7bd4163b1 -> 
+  custom:scripting/monoscript/fileName/FontData.cs: 2624b2b5223fc7daa60b578156662561 -> 
+  custom:scripting/monoscript/fileName/TimedObjectDestructor.cs: 2b9ef5c24d8ac1876bcac32bfbb70091 -> 
+  custom:scripting/monoscript/fileName/IAdLoaderClient.cs: 97b31d34586e7af8e857d799976e4117 -> 
+  custom:scripting/monoscript/fileName/VerticalLayoutGroup.cs: d5cf2f2f23f5247db7d886894bac9b3f -> 
+  custom:scripting/monoscript/fileName/InterstitialAd.cs: 771b75c563b7c278825a029d8083cee3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/IRewardedInterstitialAdClient.cs: bb87a7c9e15ff948f68b3b7321f3c1ca -> 
+  custom:scripting/monoscript/fileName/TargetFieldOfView.cs: 51d23f9917ca2bff79136f2f326daaed -> 
+  custom:scripting/monoscript/fileName/IInterstitialClient.cs: 83607c52750641f5283d9d4590876d97 -> 
+  custom:scripting/monoscript/fileName/BGMController.cs: 8b121817cf318136f977e80329455398 -> 
+  custom:scripting/monoscript/fileName/RectMask2DEditor.cs: f121c7dbc11fd506db77fcd126dfa3fc -> 
+  custom:scripting/monoscript/fileName/MaskEditor.cs: 3bd6622b0f25c580774e523433166ef0 -> 
+  custom:scripting/monoscript/fileName/PanelEventHandler.cs: ba6769d051300e140797e22cf69b8ced -> 
+  custom:scripting/monoscript/fileName/GridLayoutGroupEditor.cs: e48ddca2b2d4210562ae141b312d8312 -> 
+  custom:scripting/monoscript/fileName/ILayoutElement.cs: a5941e42345b87779111dd71a1bb5868 -> 
+  custom:scripting/monoscript/fileName/FormError.cs: 2a5d2fade14a65976dfb99745c1a44fe -> 
+  custom:scripting/monoscript/fileName/BaseRaycaster.cs: e37362e329c8091c64b863e33af2335e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/OnConsentFormLoadFailureListener.cs: 5caa8b922b9d6a05b3d6e8ef925843f0 -> 
+  custom:scripting/monoscript/fileName/IApplicationPreferencesClient.cs: 5527eeb2f73bc8122fa646ef1b142f91 -> 
+  custom:scripting/monoscript/fileName/RequestConfigurationClient.cs: 2bb09ee5243e515d54b8462c3a5ea2cd -> 
+  custom:scripting/monoscript/fileName/CustomNativeEventArgs.cs: f666e5091b7f3e8b349100896254b062 -> 
+  custom:scripting/monoscript/fileName/AppEvent.cs: d76b9b8870f3359e1d5f0890c8a08810 -> 
+  custom:scripting/monoscript/fileName/LoadAdErrorClientEventArgs.cs: a7a2f8e5d0f7f8799d20ac3aacc25395 -> 
+  custom:scripting/monoscript/fileName/DummyClient.cs: eb95fd880d462fdae09cd043197f4dc0 -> 
+  custom:scripting/monoscript/fileName/ResponseInfoClient.cs: 934198fd4a6ecf834c51902355a3c65a -> 
+  custom:scripting/monoscript/fileName/LoadAdError.cs: 30d41f25b3a0c0388c5c87e35b8145d9 -> 
+  custom:scripting/monoscript/fileName/IBannerClient.cs: f9df540751f64c7c663093ee72af7105 -> 
+  custom:scripting/monoscript/fileName/VideoOptions.cs: d0d9e2b90a68b056df9157181a1e8c61 -> 
+  custom:scripting/monoscript/fileName/InterstitialClient.cs: 1275a62de10a458b691bcfaaf62488c4 -> 
+  custom:scripting/monoscript/fileName/IUmpClientFactory.cs: 24cc417b2a9a24385387ad5b9f5884bc -> 
+  custom:scripting/monoscript/fileName/StudentLeg.cs: f7c6f4072360ce727377b5b86b5cd091 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ServerSideVerificationOptions.cs: d49171325a764c5ee699d1734cee4940 -> 
+  custom:scripting/monoscript/fileName/NativeAdOptions.cs: 465f28402ada573d07281e42d512826d -> 
+  custom:scripting/monoscript/fileName/AdInspectorListener.cs: 80f743e3a68d54a9880d32f1700f0c57 -> 
+  custom:scripting/monoscript/fileName/FontUpdateTracker.cs: 0edf4184b1e65a637688bed2aad2858e -> 
+  custom:scripting/monoscript/fileName/ConsentRequestParameters.cs: e2452f27b5c8c46f80c21ab4b82dea03 -> 
+  custom:scripting/monoscript/fileName/EventTrigger.cs: 302ed930e5ba0917aa82911027f67670 -> 
+  custom:scripting/monoscript/fileName/AdSize.cs: 60014b77b8394b1b47b636d38ddb07e8 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Localizer.cs: 3c969bcbc00bddba4909b5a691e5a5b6 -> 
+  custom:scripting/monoscript/fileName/ReflectionMethodsCache.cs: c5cb035abcaae76940caca8d15cf29e4 -> 
+  custom:scripting/monoscript/fileName/IAppOpenAdClient.cs: 0d0afc34f74c0dc48ebdfdfa7eb41f4c -> 
+  custom:scripting/monoscript/fileName/AnimationTriggersDrawer.cs: a95af93c1a59bab8729323baee4360e5 -> 
+  custom:scripting/monoscript/fileName/RewardedAdClient.cs: 82c368285d18c8c06a328b87c3a1130b -> 
+  custom:scripting/monoscript/fileName/LookatTarget.cs: 24990fd6a1942dd499cec63d308f9c02 -> 
+  custom:scripting/monoscript/fileName/OnConsentFormLoadSuccessListener.cs: eb2356ebf7b8fbce21b27007fcfc2fdb -> 
+  custom:scripting/monoscript/fileName/AdLoaderClient.cs: 25e8a11a1b7948177c43756bf41a1444 -> 
+  custom:scripting/monoscript/fileName/ScrollbarEditor.cs: b44327427537937c6a57f8543906e016 -> 
+  custom:scripting/monoscript/fileName/MobileControlRig.cs: edcf953c7c7f28c0e7c76ed3794b771a -> 
+  custom:scripting/monoscript/fileName/EventInterfaces.cs: 207de7b71ff167cef7ae4584652d1556 -> 
+  custom:scripting/monoscript/fileName/GridLayoutGroup.cs: 43759e18a5ea1dda932d71b40c61dda6 -> 
+  custom:scripting/monoscript/fileName/GraphicRaycaster.cs: 0fc8c9d6ff17669221a0b586bde06477 -> 
+  custom:scripting/monoscript/fileName/CanvasUpdateRegistry.cs: bdf5b5b4904888a4c7ec20bc9ff4f0a2 -> 
+  custom:scripting/monoscript/fileName/ICustomInAppPurchaseProcessor.cs: f838330b3221c6a6923f626d7493da8e -> 
+  custom:scripting/monoscript/fileName/ICustomInAppPurchase.cs: 22f662ccc67246622bc7515778898d41 -> 
+  custom:scripting/monoscript/fileName/Scrollbar.cs: 042fdb4d377c0d68cf1021e2ead3c650 -> 
+  custom:scripting/monoscript/fileName/EventSystemEditor.cs: 76f2d1177650edec9abc8c01fb91473a -> 
+  custom:scripting/monoscript/fileName/LayoutElement.cs: 0ad083ca76b6eceec2f3e5e824de2611 -> 
+  custom:scripting/monoscript/fileName/LayoutGroup.cs: 47296f37423e45582ae2a1285f1834e1 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55.405331 seconds.
+  path: Assets/Scenes/Loading.unity
+  artifactKey: Guid(50124e8c474a7214ebe30b3f067d5155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Loading.unity using Guid(50124e8c474a7214ebe30b3f067d5155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '47e8de10ebae19182f40e24cebb96a2f') in 0.002224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.580226 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(907f29c44125b06428904af30a122432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(907f29c44125b06428904af30a122432) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '830e1131f8a68f9ab5f7aefdbf7704b1') in 0.000493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.115114 seconds.
+  path: Assets/Scenes/Field.unity
+  artifactKey: Guid(d941c9155f53e764590ec759216fe9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Field.unity using Guid(d941c9155f53e764590ec759216fe9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b2a33d05c4622c14e5370a5d40c65d77') in 0.000537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.589382 seconds.
+  path: Assets/Scenes/FieldSimple.unity
+  artifactKey: Guid(661d6542466307240822a7b8316948c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FieldSimple.unity using Guid(661d6542466307240822a7b8316948c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '65b9e14b351e15df23982aff12086bf9') in 0.000469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
